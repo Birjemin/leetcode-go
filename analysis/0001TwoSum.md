@@ -67,6 +67,6 @@ func twoSum(nums []int, target int) []int {
 利用map来降低维度，空间换区时间~~
 
 ## 参考
-[https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0001.two-sum/two-sum.go](https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0001.two-sum/two-sum.go)
-[https://github.com/wind-liang/leetcode/blob/master/leetCode-1-Two-Sum.md](https://github.com/wind-liang/leetcode/blob/master/leetCode-1-Two-Sum.md)
-[https://leetcode.com/problems/two-sum/discuss/261590/100-Golang](https://leetcode.com/problems/two-sum/discuss/261590/100-Golang)
+1. [https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0001.two-sum/two-sum.go](https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0001.two-sum/two-sum.go)
+2. [https://github.com/wind-liang/leetcode/blob/master/leetCode-1-Two-Sum.md](https://github.com/wind-liang/leetcode/blob/master/leetCode-1-Two-Sum.md)
+3. [https://leetcode.com/problems/two-sum/discuss/261590/100-Golang](https://leetcode.com/problems/two-sum/discuss/261590/100-Golang)

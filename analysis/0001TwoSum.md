@@ -46,6 +46,8 @@ func twoSum(nums []int, target int) []int {
 	return res
 }
 ```
+* 时间复杂度：O(n^2)
+* 空间复杂度：O(1)
 
 ## 改进
 题干提到每个元素唯一那么可以用map来映射
@@ -62,6 +64,8 @@ func twoSum(nums []int, target int) []int {
 	return nil
 }
 ```
+* 时间复杂度：O(n)
+* 空间复杂度：O(n)
 
 ## 反思
 利用map来降低维度，空间换区时间~~

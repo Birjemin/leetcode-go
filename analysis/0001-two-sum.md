@@ -34,16 +34,16 @@ func twoSum(nums []int, target int) []int {
 ## 实现
 ```golang
 func twoSum(nums []int, target int) []int {
-	var res []int
 	length := len(nums)
 	for i := 0; i < length; i++ {
-		for j := i; j < length; j++ {
+		for j := i + 1; j < length; j++ {
+		fmt.Println(i, j, target, nums[i], nums[j])
 			if target - nums[i] == nums[j] {
-				res = append(res, i, j)
+				return []int{i, j}
 			}
 		}
 	}
-	return res
+	return nil
 }
 ```
 * 时间复杂度：O(n^2)

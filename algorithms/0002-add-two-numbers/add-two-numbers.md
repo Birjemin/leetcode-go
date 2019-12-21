@@ -65,27 +65,27 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 
 	head := &ListNode{Val: 0, Next: nil}
 	temp := head
-	var x, y, z, a int
+	var sum, z, a int
 	for l1 != nil || l2 != nil || a != 0 {
 
 		if l1 != nil {
-			x = l1.Val
+			sum += l1.Val
 			l1 = l1.Next
 		} else {
-			x = 0
+			sum += 0
 		}
 
 		if l2 != nil {
-			y = l2.Val
+			sum += l2.Val
 			l2 = l2.Next
 		} else {
-			y = 0
+			sum += 0
 		}
 
 		// 余数
-		z = (x + y + a) % 10
+		z = (sum + a) % 10
 		// 进位
-		a = (x + y + a) / 10
+		a = (sum + a) / 10
 
 		temp.Val = z
 
@@ -94,28 +94,80 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 		}
 		temp.Next = &ListNode{Val: 0, Next: nil}
 		temp = temp.Next
+		sum = 0
 	}
 	return head
 }
 ```
-* 时间复杂度：
-* 空间复杂度：
 
 ## 改进
-尝试缩减代码，全部放在一个循环中
+参考别人的代码，简化逻辑
 ```golang
 
+func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+	if l1 == nil || l2 == nil {
+		return nil
+	}
+
+	head := &ListNode{}
+	temp := head
+	var a int
+	for l1 != nil || l2 != nil || a != 0 {
+		if l1 != nil {
+			a += l1.Val
+			l1 = l1.Next
+		}
+
+		if l2 != nil {
+			a += l2.Val
+			l2 = l2.Next
+		}
+
+		temp.Val = a % 10
+		a /= 10
+		if l1 == nil && l2 == nil && a == 0 {
+			break
+		}
+
+		temp.Next = &ListNode{Val: 0, Next: nil}
+		temp = temp.Next
+	}
+	return head
+}
 ```
-* 时间复杂度：
-* 空间复杂度：
 
+## 再次改进
+看了最高分的，使用空间换取时间
+```golang
+func addTwoNumbers2(l1 *ListNode, l2 *ListNode) *ListNode {
+	if l1 == nil || l2 == nil {
+		return nil
+	}
+
+	head := &ListNode{}
+	temp := head
+	var a int
+	for l1 != nil || l2 != nil || a != 0 {
+		if l1 != nil {
+			a += l1.Val
+			l1 = l1.Next
+		}
+
+		if l2 != nil {
+			a += l2.Val
+			l2 = l2.Next
+		}
+
+		temp.Next = &ListNode{Val: a % 10, Next: nil}
+		a /= 10
+		temp = temp.Next
+	}
+	// 第一个节点不符合，所以返回head.Next
+	return head.Next
+}
+```
 ## 反思
-
-https://leetcode.com/problemset/algorithms/
-https://leetcode.com/problems/add-two-numbers/
-https://leetcode-cn.com/problems/add-two-numbers/
-https://github.com/wind-liang/leetcode/blob/master/leetCode-2-Add-Two-Numbers.md
-https://github.com/aQuaYi/LeetCode-in-Go/tree/master/Algorithms/0002.add-two-numbers
+感觉最高分的很讨巧，没有想到会从第二个节点开始。。。
 
 ## 参考
 1. []()

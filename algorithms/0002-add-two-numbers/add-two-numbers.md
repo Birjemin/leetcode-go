@@ -170,4 +170,5 @@ func addTwoNumbers2(l1 *ListNode, l2 *ListNode) *ListNode {
 感觉最高分的很讨巧，没有想到会从第二个节点开始。。。
 
 ## 参考
-1. []()
+1. [https://leetcode.com/problems/add-two-numbers/discuss/253942/Golang-12ms-100.00-5MB](https://leetcode.com/problems/add-two-numbers/discuss/253942/Golang-12ms-100.00-5MB)
+2. [https://leetcode.com/problems/add-two-numbers/discuss/322184/golang-concise-solution](https://leetcode.com/problems/add-two-numbers/discuss/322184/golang-concise-solution)

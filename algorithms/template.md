@@ -29,3 +29,11 @@
 利用map来降低维度，空间换区时间~~
 
 ## 参考
+
+https://leetcode.com/problemset/algorithms/?difficulty=Easy
+
+https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0007.reverse-integer/reverse-integer.go
+
+https://github.com/halfrost/LeetCode-Go/blob/master/Algorithms/0007.%20Reverse%20Integer/7.%20Reverse%20Integer.go
+
+https://github.com/hitzzc/go-leetcode/blob/master/reverse_integer/reverse_integer.go

@@ -12,11 +12,7 @@ func isPalindrome1(x int) bool {
     for temp := x; temp != 0; temp /= 10 {
         y = 10 * y + temp % 10
     }
-    if y == x {
-        return true
-    } else {
-        return false
-    }
+    return y == x
 }
 
 func isPalindrome2(x int) bool {

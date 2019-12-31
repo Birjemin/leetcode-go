@@ -1,4 +1,4 @@
-package add_two_numbers
+package merge_two_sorted_lists
 
 import (
     "fmt"
@@ -50,40 +50,47 @@ func showListNode(res *ListNode) {
 
 func Test(t *testing.T) {
     ast := assert.New(t)
-
     qs := []question{
         {
             p: param{
-                one: makeListNode([]int{2, 4, 3}),
-                two: makeListNode([]int{5, 6, 4}),
+                one: makeListNode([]int{1, 2, 4}),
+                two: makeListNode([]int{1, 3, 4}),
             },
             a: result{
-                one: makeListNode([]int{7, 0, 8}),
+                one: makeListNode([]int{1, 1, 2, 3, 4, 4}),
             },
         },
         {
-            p: param{
-                one: makeListNode([]int{2, 7, 7, 8, 5}),
-                two: makeListNode([]int{8, 2, 2, 1, 4}),
-            },
-            a: result{
-                one: makeListNode([]int{0, 0, 0, 0, 0, 1}),
-            },
+           p: param{
+               one: makeListNode([]int{}),
+               two: makeListNode([]int{}),
+           },
+           a: result{
+               one: makeListNode([]int{}),
+           },
         },
         {
-            p: param{
-                one: makeListNode([]int{0}),
-                two: makeListNode([]int{5, 6, 4}),
-            },
-            a: result{
-                one: makeListNode([]int{5, 6, 4}),
-            },
+           p: param{
+               one: makeListNode([]int{}),
+               two: makeListNode([]int{1, 3, 4}),
+           },
+           a: result{
+               one: makeListNode([]int{1, 3, 4}),
+           },
+        },
+        {
+           p: param{
+               one: makeListNode([]int{1, 2}),
+               two: makeListNode([]int{9, 9, 9}),
+           },
+           a: result{
+               one: makeListNode([]int{1, 2, 9, 9, 9}),
+           },
         },
     }
-
     for _, q := range qs {
         a, p := q.a, q.p
-        ast.Equal(a.one, addTwoNumbers1(p.one, p.two), "输入:%v", p)
-        ast.Equal(a.one, addTwoNumbers2(p.one, p.two), "输入:%v", p)
+        ast.Equal(a.one, mergeTwoLists(p.one, p.two), "输入:%v", q)
+        //ast.Equal(a.one, mergeTwoLists1(p.one, p.two), "输入:%v", q)
     }
 }

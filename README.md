@@ -16,5 +16,7 @@ Num | Question | Answer | Analysis | tags | Date
 0009 | Palindrome Number | [Answer](/algorithms/0009-palindrome-number/palindrome-number.go) | [Analysis](/algorithms/0009-palindrome-number/palindrome-number.md) | xxx | 2019/12/27
 0013 | Roman to Integer | [Answer](/algorithms/0013-roman-to-integer/roman-to-integer.go) | [Analysis](/algorithms/0013-roman-to-integer/roman-to-integer.md) | xxx | 2019/12/27
 0014 | Longest Common Prefix | [Answer](/algorithms/0013-roman-to-integer/roman-to-integer.go) | [Analysis](/algorithms/0013-roman-to-integer/roman-to-integer.md) | xxx | 2019/12/27
-0020 | Valid Parentheses | [Answer](/algorithms/0020-roman-to-integer/roman-to-integer.go) | [Analysis](/algorithms/0020-roman-to-integer/roman-to-integer.md) | xxx | 2019/12/27
-0021 | Merge Two Sorted Lists | [Answer](/algorithms/0020-roman-to-integer/roman-to-integer.go) | [Analysis](/algorithms/0020-roman-to-integer/roman-to-integer.md) | xxx | 2019/12/31
+0020 | Valid Parentheses | [Answer](/algorithms/0020-valid-parentheses/valid-parentheses.go) | [Analysis](/algorithms/0020-valid-parentheses/valid-parentheses.md) | xxx | 2019/12/27
+0021 | Merge Two Sorted Lists | [Answer](/algorithms/0021-merge-two-sorted-lists/merge-two-sorted-lists.go) | [Analysis](/algorithms/0021-merge-two-sorted-lists/merge-two-sorted-lists.md) | xxx | 2019/12/31
+0026 | Remove Duplicates from Sorted Array | [Answer](/algorithms/0026-remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.go) | [Analysis](/algorithms/0026-remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.md) | xxx | 2019/12/31
+0027 | Remove Element | [Answer](/algorithms/0027-remove-element/remove-element.go) | [Analysis](/algorithms/0027-remove-element/remove-element.md) | xxx | 2020/01/01

@@ -67,16 +67,12 @@ func removeDuplicates(nums []int) int {
 ## 实现
 ```golang
 func removeDuplicates(nums []int) int {
-    left, num, length := 0, 1, len(nums)
-    if length == 1 {
-        return num
-    }
+    left, length := 0, len(nums)
     for right := 1; right < length; right++ {
-        if nums[left] == nums[right] {
-            continue
+        if nums[left] < nums[right] {
+            left++
+            nums[left], nums[right] = nums[right], nums[left]
         }
-        left++
-        nums[left], nums[right] = nums[right], nums[left]
     }
     return left + 1
 }

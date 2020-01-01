@@ -1,4 +1,4 @@
-package remove_element
+package implement_strstr
 
 import (
     "github.com/stretchr/testify/assert"
@@ -6,8 +6,8 @@ import (
 )
 
 type param struct {
-    one []int
-    two int
+    one string
+    two string
 }
 
 type result struct {
@@ -24,8 +24,8 @@ func Test(t *testing.T) {
     qs := []question{
         {
             p: param{
-                one: []int{3, 2, 2, 3},
-                two: 3,
+                one: "hello",
+                two: "ll",
             },
             a: result{
                 one: 2,
@@ -33,26 +33,26 @@ func Test(t *testing.T) {
         },
         {
             p: param{
-                one: []int{0, 1, 2, 2, 3, 0, 4, 2},
-                two: 2,
+                one: "aaaaa",
+                two: "bba",
             },
             a: result{
-                one: 5,
+                one: -1,
             },
         },
         {
             p: param{
-                one: []int{1, 2},
-                two: 1,
+                one: "aaaaa",
+                two: "",
             },
             a: result{
-                one: 1,
+                one: 0,
             },
         },
         {
             p: param{
-                one: []int{0, 0, 0, 0, 0},
-                two: 0,
+                one: "a",
+                two: "a",
             },
             a: result{
                 one: 0,
@@ -61,7 +61,7 @@ func Test(t *testing.T) {
     }
     for _, q := range qs {
         a, p := q.a, q.p
-        ast.Equal(a.one, removeElement1(p.one, p.two), "输入:%v", q)
-        ast.Equal(a.one, removeElement(p.one, p.two), "输入:%v", q)
+        ast.Equal(a.one, strStr(p.one, p.two), "输入:%v", q)
+        ast.Equal(a.one, strStr1(p.one, p.two), "输入:%v", q)
     }
 }

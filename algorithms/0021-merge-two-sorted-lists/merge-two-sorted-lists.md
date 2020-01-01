@@ -71,10 +71,25 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 ## 改进
 改成递归~~~
 ```golang
-
+func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+    if l1 == nil {
+        return l2
+    } else if l2 == nil {
+        return l1
+    }
+    var head *ListNode
+    if l1.Val > l2.Val {
+        head = l2
+        head.Next = mergeTwoLists(l2.Next, l1)
+    } else {
+        head = l1
+        head.Next = mergeTwoLists(l1.Next, l2)
+    }
+    return head
+}
 ```
 
 ## 反思
-利用map来降低维度，空间换区时间~~
+递归可以降维，便于管理
 
 ## 参考

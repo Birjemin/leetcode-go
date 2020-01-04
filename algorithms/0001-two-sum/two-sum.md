@@ -14,6 +14,7 @@ return [0, 1].
 
 ## 分析
 两层循环最简单
+输入一个数列nums，一个target，然后在nums中找到两个num，它们的和是target，返回这两个数的索引
 
 ## 最高分
 ```golang
@@ -37,7 +38,6 @@ func twoSum(nums []int, target int) []int {
 	length := len(nums)
 	for i := 0; i < length; i++ {
 		for j := i + 1; j < length; j++ {
-		fmt.Println(i, j, target, nums[i], nums[j])
 			if target - nums[i] == nums[j] {
 				return []int{i, j}
 			}
@@ -50,14 +50,16 @@ func twoSum(nums []int, target int) []int {
 * 空间复杂度：O(1)
 
 ## 改进
-题干提到每个元素唯一那么可以用map来映射
+题干提到每个元素唯一那么可以用map来映射，将值作为map键，将索引作为map的值
 ```golang
 func twoSum(nums []int, target int) []int {
 	lookup := make(map[int]int, len(nums))
+	// i为索引，v为值
 	for i, v := range nums {
 		if j, ok := lookup[target-v]; ok {
 			return []int{j, i}
 		}
+		// 填充v
 		lookup[v] = i
 	}
 

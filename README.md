@@ -23,3 +23,4 @@ Num | Question | Answer | Analysis | tags | Date
 0028 | Implement strStr | [Answer](/algorithms/0028-implement-strstr/implement-strstr.go) | [Analysis](/algorithms/0028-implement-strstr/implement-strstr.md) | xxx | 2020/01/01
 0035 | Search Insert Position | [Answer](/algorithms/0035-search-insert-position/search-insert-position.go) | [Analysis](/algorithms/0035-search-insert-position/search-insert-position.md) | xxx | 2020/01/01
 0038 | Count and Say | [Answer](/algorithms/0038-count-and-say/count-and-say.go) | [Analysis](/algorithms/0038-count-and-say/count-and-say.md) | xxx | 2020/01/01
+0053 | Maximum Subarray | [Answer](/algorithms/0053-maximum-subarray/maximum-subarray.go) | [Analysis](/algorithms/0053-maximum-subarray/maximum-subarray.md) | xxx | 2020/01/04

@@ -24,3 +24,4 @@ Num | Question | Answer | Analysis | tags | Date
 0035 | Search Insert Position | [Answer](/algorithms/0035-search-insert-position/search-insert-position.go) | [Analysis](/algorithms/0035-search-insert-position/search-insert-position.md) | xxx | 2020/01/01
 0038 | Count and Say | [Answer](/algorithms/0038-count-and-say/count-and-say.go) | [Analysis](/algorithms/0038-count-and-say/count-and-say.md) | xxx | 2020/01/01
 0053 | Maximum Subarray | [Answer](/algorithms/0053-maximum-subarray/maximum-subarray.go) | [Analysis](/algorithms/0053-maximum-subarray/maximum-subarray.md) | xxx | 2020/01/04
+0058 | Length of Last Word | [Answer](/algorithms/0058-length-of-last-word/length-of-last-word.go) | [Analysis](/algorithms/0058-length-of-last-word/length-of-last-word.md) | xxx | 2020/01/04

@@ -65,5 +65,6 @@ func Test(t *testing.T) {
     for _, q := range qs {
         a, p := q.a, q.p
         ast.Equal(a.one, maxSubArray(p.one), "输入:%v", q)
+        ast.Equal(a.one, maxSubArray1(p.one), "输入:%v", q)
     }
 }

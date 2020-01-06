@@ -26,3 +26,4 @@ Num | Question | Answer | Analysis | tags | Date
 0053 | Maximum Subarray | [Answer](/algorithms/0053-maximum-subarray/maximum-subarray.go) | [Analysis](/algorithms/0053-maximum-subarray/maximum-subarray.md) | xxx | 2020/01/04
 0058 | Length of Last Word | [Answer](/algorithms/0058-length-of-last-word/length-of-last-word.go) | [Analysis](/algorithms/0058-length-of-last-word/length-of-last-word.md) | xxx | 2020/01/04
 0066 | Plus One | [Answer](/algorithms/0066-plus-one/plus-one.go) | [Analysis](/algorithms/0066-plus-one/plus-one.md) | xxx | 2020/01/04
+0067 | Add Binary | [Answer](/algorithms/0067-add-binary/add-binary.go) | [Analysis](/algorithms/0067-add-binary/plus-one.md) | xxx | 2020/01/06

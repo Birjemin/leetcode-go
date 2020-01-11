@@ -30,4 +30,5 @@ Num | Question | Answer | Analysis | tags | Date
 0069 | Sqrt(x) | [Answer](/algorithms/0069-sqrt/sqrt.go) | [Analysis](/algorithms/0069-sqrt/sqrt.md) | xxx | 2020/01/07
 0070 | Climbing Stairs | [Answer](/algorithms/0070-climbing-stairs/climbing-stairs.go) | [Analysis](/algorithms/0070-climbing-stairs/climbing-stairs.md) | xxx | 2020/01/11
 0083 | Remove Duplicates from Sorted List | [Answer](/algorithms/0083-remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.go) | [Analysis](/algorithms/0083-remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.md) | xxx | 2020/01/11
-0088 | Merge Sorted Array | [Answer](/algorithms/0083-remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.go) | [Analysis](/algorithms/0083-remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.md) | xxx | 2020/01/11
+0088 | Merge Sorted Array | [Answer](/algorithms/0088-merge-sorted-array/merge-sorted-array.go) | [Analysis](/algorithms/0088-merge-sorted-array/merge-sorted-array.md) | xxx | 2020/01/11
+0100 | Same Tree | [Answer](/algorithms/0100-same-tree/same-tree.go) | [Analysis](/algorithms/0100-same-tree/same-tree.md) | xxx | 2020/01/11

@@ -35,10 +35,10 @@ func isPalindrome(s string, j int) bool {
 }
 
 func longestPalindrome(s string) string {
-    min, max, length, l, h := 0, 0, len(s), 0, 0
+    min, max, length := 0, 0, len(s)
     for i := 0; i < length; i++ {
         // 奇数
-        l, h = i, i
+        l, h := i, i
         for l >= 0 && h < length && s[l] == s[h] {
             l--
             h++
@@ -46,6 +46,7 @@ func longestPalindrome(s string) string {
         if h-l-1 > max-min {
             min, max = l+1, h
         }
+
         // 偶数
         l, h = i, i+1
         for l >= 0 && h < length && s[l] == s[h] {

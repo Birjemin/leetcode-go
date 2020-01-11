@@ -95,7 +95,31 @@ func isPalindrome(s string, j int) bool {
 ## 改进
 根据最高分修改，分偶数和奇数
 ```golang
+func longestPalindrome(s string) string {
+    min, max, length := 0, 0, len(s)
+    for i := 0; i < length; i++ {
+        // 奇数
+        l, h := i, i
+        for l >= 0 && h < length && s[l] == s[h] {
+            l--
+            h++
+        }
+        if h-l-1 > max-min {
+            min, max = l+1, h
+        }
 
+        // 偶数
+        l, h = i, i+1
+        for l >= 0 && h < length && s[l] == s[h] {
+            l--
+            h++
+        }
+        if h-l-1 > max-min {
+            min, max = l+1, h
+        }
+    }
+    return s[min:max]
+}
 ```
 
 ## 反思

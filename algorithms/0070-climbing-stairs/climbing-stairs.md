@@ -58,7 +58,6 @@ func climbStairs(n int) int {
 ## 改进
 使用计数
 ```golang
-
 func climbStairs(n int) int {
     if n == 1 {
         return 1
@@ -69,7 +68,6 @@ func climbStairs(n int) int {
     }
     return two
 }
-
 ```
 
 ## 反思

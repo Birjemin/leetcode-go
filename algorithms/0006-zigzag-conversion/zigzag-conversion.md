@@ -60,6 +60,8 @@ func convert(s string, numRows int) string {
         for i:=0; i<numRows; i++{
             answer = answer + result[i]
         }
+    }
+}
 ```
 
 

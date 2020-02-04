@@ -34,9 +34,8 @@ func convert1(s string, numRows int) string {
     if numRows == 1 {
         return s
     }
-    str := bytes.Buffer{}
     var flag bool
-    length, num := len(s), 2*numRows-2
+    length, str, num := len(s), bytes.Buffer{}, 2*numRows-2
     // circle
     for i := 0; i < numRows; i++ {
         if i == 0 || i == numRows-1 {

@@ -21,7 +21,7 @@ func twoSum1(nums []int, target int) []int {
 }
 
 
-// 降维度
+// 降维度：先登记自己的匹配对象，然后遍历查找
 func twoSum2(nums []int, target int) []int {
 	lookup := make(map[int]int, len(nums))
 	for i, v := range nums {
@@ -39,7 +39,7 @@ func twoSum2(nums []int, target int) []int {
 	return nil
 }
 
-// 合并循环 来着参考2
+// 合并循环 来着参考2：先查找自己的匹配对象，没有找到则登记自己
 func twoSum3(nums []int, target int) []int {
 	lookup := make(map[int]int, len(nums))
 	for i, v := range nums {

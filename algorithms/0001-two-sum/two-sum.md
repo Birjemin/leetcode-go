@@ -14,7 +14,10 @@ return [0, 1].
 
 ## 分析
 两层循环最简单
-输入一个数列nums，一个target，然后在nums中找到两个num，它们的和是target，返回这两个数的索引
+输入一个数列nums，一个target，然后在nums中找到两个num，它们的和是target，返回这两个数的索引，三种方式：
+- 直接两个循环查找
+- 记录target - num[i]，逐一判断是否匹配
+- 判断是否匹配，不匹配则记录要匹配的对象target-nums[i]
 
 ## 最高分
 ```golang

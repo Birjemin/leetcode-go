@@ -14,9 +14,9 @@ func threeSum(nums []int) [][]int {
     // sort nums
     sort.Ints(nums)
     for i := 0; i < length-2; i++ {
-        // impossible value
+        // impossible value, stop search
         if nums[i] > 0 {
-            return ret
+            break
         }
         // jump repeat i value
         if i > 0 && nums[i] == nums[i-1] {

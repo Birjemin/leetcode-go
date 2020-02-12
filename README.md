@@ -29,6 +29,7 @@ Num | Question | Answer | Analysis | tags | Date
 0020 | Valid Parentheses | [Answer](/algorithms/0020-valid-parentheses/valid-parentheses.go) | [Analysis](/algorithms/0020-valid-parentheses/valid-parentheses.md) | xxx | 2019/12/27
 0021 | Merge Two Sorted Lists | [Answer](/algorithms/0021-merge-two-sorted-lists/merge-two-sorted-lists.go) | [Analysis](/algorithms/0021-merge-two-sorted-lists/merge-two-sorted-lists.md) | xxx | 2019/12/31
 0022 | Generate Parentheses!!! | [Answer](/algorithms/0022-generate-parentheses/generate-parentheses.go) | [Analysis](/algorithms/0022-generate-parentheses/generate-parentheses.md) | xxx | 2020/02/12
+0024 | Swap Nodes in Pairs!!! | [Answer](/algorithms/0024-swap-nodes-in-pairs/swap-nodes-in-pairs.go) | [Analysis](/algorithms/0024-swap-nodes-in-pairs/swap-nodes-in-pairs.md) | xxx | 2020/02/12
 0026 | Remove Duplicates from Sorted Array | [Answer](/algorithms/0026-remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.go) | [Analysis](/algorithms/0026-remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.md) | xxx | 2019/12/31
 0027 | Remove Element | [Answer](/algorithms/0027-remove-element/remove-element.go) | [Analysis](/algorithms/0027-remove-element/remove-element.md) | xxx | 2020/01/01
 0028 | Implement strStr | [Answer](/algorithms/0028-implement-strstr/implement-strstr.go) | [Analysis](/algorithms/0028-implement-strstr/implement-strstr.md) | xxx | 2020/01/01

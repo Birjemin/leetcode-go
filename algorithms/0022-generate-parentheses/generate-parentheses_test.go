@@ -35,20 +35,6 @@ func Test(t *testing.T) {
                 },
             },
         },
-        {
-            p: param{
-                one: 3,
-            },
-            a: result{
-                one: []string{
-                    "((()))",
-                    "(()())",
-                    "(())()",
-                    "()(())",
-                    "()()()",
-                },
-            },
-        },
     }
     for _, q := range qs {
         a, p := q.a, q.p

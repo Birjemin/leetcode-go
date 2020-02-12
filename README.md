@@ -28,7 +28,7 @@ Num | Question | Answer | Analysis | tags | Date
 0019 | Remove Nth Node From End of List | [Answer](/algorithms/0019-remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.go) | [Analysis](/algorithms/0019-remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.md) | xxx | 2020/02/09
 0020 | Valid Parentheses | [Answer](/algorithms/0020-valid-parentheses/valid-parentheses.go) | [Analysis](/algorithms/0020-valid-parentheses/valid-parentheses.md) | xxx | 2019/12/27
 0021 | Merge Two Sorted Lists | [Answer](/algorithms/0021-merge-two-sorted-lists/merge-two-sorted-lists.go) | [Analysis](/algorithms/0021-merge-two-sorted-lists/merge-two-sorted-lists.md) | xxx | 2019/12/31
-0022 | Generate Parentheses | [Answer](/algorithms/0022-generate-parentheses/generate-parentheses.go) | [Analysis](/algorithms/0022-generate-parentheses/generate-parentheses.md) | xxx | 2020/02/12
+0022 | Generate Parentheses!!! | [Answer](/algorithms/0022-generate-parentheses/generate-parentheses.go) | [Analysis](/algorithms/0022-generate-parentheses/generate-parentheses.md) | xxx | 2020/02/12
 0026 | Remove Duplicates from Sorted Array | [Answer](/algorithms/0026-remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.go) | [Analysis](/algorithms/0026-remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.md) | xxx | 2019/12/31
 0027 | Remove Element | [Answer](/algorithms/0027-remove-element/remove-element.go) | [Analysis](/algorithms/0027-remove-element/remove-element.md) | xxx | 2020/01/01
 0028 | Implement strStr | [Answer](/algorithms/0028-implement-strstr/implement-strstr.go) | [Analysis](/algorithms/0028-implement-strstr/implement-strstr.md) | xxx | 2020/01/01

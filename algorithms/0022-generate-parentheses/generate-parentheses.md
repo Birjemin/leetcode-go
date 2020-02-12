@@ -17,7 +17,8 @@ n代表生成括号的对数，输出所有可能的排列组合
 - 动态规划
 - 深度优先遍历
 - 广度优先遍历
-需要考究一下
+需要考究一下!
+[233](https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/)
 
 ## 最高分
 这个解法真的是刘辟！！！

@@ -8,10 +8,19 @@ Example:
 Given 1->2->3->4, you should return the list as 2->1->4->3.
 
 ## 分析
+两两调换
 
 ## 最高分
+递归真的是刘辟
 ```golang
-
+func swapPairs(head *ListNode) *ListNode {
+    if head == nil || head.Next == nil {
+        return head
+    }
+    h := head.Next
+    h.Next, head.Next = head, swapPairs(h.Next)
+    return h
+}
 ```
 
 ## 实现
@@ -27,6 +36,7 @@ func swapPairs(head *ListNode) *ListNode {
 ```
 
 ## 改进
+无解
 ```golang
 
 ```

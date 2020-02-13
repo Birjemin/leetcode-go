@@ -7,7 +7,7 @@ func generateParenthesis(n int) []string {
 }
 
 func backtrack(ans *[]string, cur string, open, close, max int) {
-    if len(cur) == 2 * max {
+    if len(cur) == max*2 {
         *ans = append(*ans, cur)
         return
     }
@@ -15,6 +15,6 @@ func backtrack(ans *[]string, cur string, open, close, max int) {
         backtrack(ans, cur+"(", open+1, close, max)
     }
     if close < open {
-        backtrack(ans, cur +")", open, close+1, max)
+        backtrack(ans, cur+")", open, close+1, max)
     }
 }

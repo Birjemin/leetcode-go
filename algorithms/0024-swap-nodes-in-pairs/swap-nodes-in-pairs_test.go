@@ -1,6 +1,8 @@
 package swap_nodes_in_pairs
 
 import (
+    "fmt"
+    "github.com/spf13/cast"
     "github.com/stretchr/testify/assert"
     "testing"
 )
@@ -33,6 +35,16 @@ func makeListNode(params []int) *ListNode {
         }
     }
     return res
+}
+
+func showListNode(res *ListNode) {
+    str := ""
+    for res != nil {
+        str += cast.ToString(res.Val) + " -> "
+        res = res.Next
+    }
+    str += "\n"
+    fmt.Print(str)
 }
 
 func Test(t *testing.T) {

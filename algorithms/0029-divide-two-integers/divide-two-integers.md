@@ -24,9 +24,7 @@ The divisor will never be 0.
 Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your function returns 231 − 1 when the division result overflows.
 
 ## 分析
-自行编写除法方程，先转成正数，然后使用二分法求解
-- 遍历
-- 二分法
+自行编写除法方程，先转成正数，然后使用进位来处理
 
 ## 最高分
 ```golang

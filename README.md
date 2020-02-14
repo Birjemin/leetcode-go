@@ -27,7 +27,7 @@ Num | Question | Answer | Analysis | tags | Date
 0018 | 4Sum | [Answer](/algorithms/0018-four-sum/four-sum.go) | [Analysis](/algorithms/0018-four-sum/four-sum.md) | xxx | 2020/02/09
 0019 | Remove Nth Node From End of List | [Answer](/algorithms/0019-remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.go) | [Analysis](/algorithms/0019-remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.md) | xxx | 2020/02/09
 0020 | Valid Parentheses | [Answer](/algorithms/0020-valid-parentheses/valid-parentheses.go) | [Analysis](/algorithms/0020-valid-parentheses/valid-parentheses.md) | xxx | 2019/12/27
-0021 | Merge Two Sorted Lists | [Answer](/algorithms/0021-merge-two-sorted-lists/merge-two-sorted-lists.go) | [Analysis](/algorithms/0021-merge-two-sorted-lists/merge-two-sorted-lists.md) | xxx | 2019/12/31
+0021 | Merge Two Sorted Lists!!! | [Answer](/algorithms/0021-merge-two-sorted-lists/merge-two-sorted-lists.go) | [Analysis](/algorithms/0021-merge-two-sorted-lists/merge-two-sorted-lists.md) | xxx | 2019/12/31
 0022 | Generate Parentheses!!! | [Answer](/algorithms/0022-generate-parentheses/generate-parentheses.go) | [Analysis](/algorithms/0022-generate-parentheses/generate-parentheses.md) | xxx | 2020/02/12
 0024 | Swap Nodes in Pairs!!! | [Answer](/algorithms/0024-swap-nodes-in-pairs/swap-nodes-in-pairs.go) | [Analysis](/algorithms/0024-swap-nodes-in-pairs/swap-nodes-in-pairs.md) | xxx | 2020/02/12
 0026 | Remove Duplicates from Sorted Array | [Answer](/algorithms/0026-remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.go) | [Analysis](/algorithms/0026-remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.md) | xxx | 2019/12/31
@@ -35,6 +35,7 @@ Num | Question | Answer | Analysis | tags | Date
 0028 | Implement strStr | [Answer](/algorithms/0028-implement-strstr/implement-strstr.go) | [Analysis](/algorithms/0028-implement-strstr/implement-strstr.md) | xxx | 2020/01/01
 0029 | Divide Two Integers | [Answer](/algorithms/0029-divide-two-integers/divide-two-integers.go) | [Analysis](/algorithms/0029-divide-two-integers/divide-two-integers.md) | xxx | 2020/01/13
 0031 | Next Permutation | [Answer](/algorithms/0031-next-permutation/next-permutation.go) | [Analysis](/algorithms/0031-next-permutation/next-permutation.md) | xxx | 2020/01/13
+0033 | Search in Rotated Sorted Array | [Answer](/algorithms/0033-search-in-rotated-sorted-array/search-in-rotated-sorted-array.go) | [Analysis](/algorithms/0033-search-in-rotated-sorted-array/search-in-rotated-sorted-array.md) | xxx | 2020/02/14
 0035 | Search Insert Position | [Answer](/algorithms/0035-search-insert-position/search-insert-position.go) | [Analysis](/algorithms/0035-search-insert-position/search-insert-position.md) | xxx | 2020/01/01
 0038 | Count and Say | [Answer](/algorithms/0038-count-and-say/count-and-say.go) | [Analysis](/algorithms/0038-count-and-say/count-and-say.md) | xxx | 2020/01/01
 0053 | Maximum Subarray | [Answer](/algorithms/0053-maximum-subarray/maximum-subarray.go) | [Analysis](/algorithms/0053-maximum-subarray/maximum-subarray.md) | xxx | 2020/01/04

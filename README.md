@@ -38,6 +38,7 @@ Num | Question | Answer | Analysis | tags | Date
 0033 | Search in Rotated Sorted Array | [Answer](/algorithms/0033-search-in-rotated-sorted-array/search-in-rotated-sorted-array.go) | [Analysis](/algorithms/0033-search-in-rotated-sorted-array/search-in-rotated-sorted-array.md) | xxx | 2020/02/14
 0034 | Find First and Last Position of Element in Sorted Array | [Answer](/algorithms/0034-find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.go) | [Analysis](/algorithms/0034-find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.md) | xxx | 2020/02/15
 0035 | Search Insert Position | [Answer](/algorithms/0035-search-insert-position/search-insert-position.go) | [Analysis](/algorithms/0035-search-insert-position/search-insert-position.md) | xxx | 2020/01/01
+0036 | Valid Sudoku | [Answer](/algorithms/0036-valid-sudoku/valid-sudoku.go) | [Analysis](/algorithms/0036-valid-sudoku/valid-sudoku.md) | xxx | 2020/02/15
 0038 | Count and Say | [Answer](/algorithms/0038-count-and-say/count-and-say.go) | [Analysis](/algorithms/0038-count-and-say/count-and-say.md) | xxx | 2020/01/01
 0053 | Maximum Subarray | [Answer](/algorithms/0053-maximum-subarray/maximum-subarray.go) | [Analysis](/algorithms/0053-maximum-subarray/maximum-subarray.md) | xxx | 2020/01/04
 0058 | Length of Last Word | [Answer](/algorithms/0058-length-of-last-word/length-of-last-word.go) | [Analysis](/algorithms/0058-length-of-last-word/length-of-last-word.md) | xxx | 2020/01/04

@@ -29,7 +29,7 @@ A solution set is:
 ```
 
 ## 分析
-求出candidates中之和为target的所有组合，其实考察的就是dsf遍历
+求出candidates中之和为target的所有组合，candidates中的数字可以重复使用，其实考察的就是dsf遍历
 
 ## 最高分
 ```golang

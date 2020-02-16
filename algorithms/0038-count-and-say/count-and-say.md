@@ -33,6 +33,7 @@ Explanation: For n = 3 the term was "21" in which we have two groups "2" and "1"
 
 ## 分析
 外观数列，开始不理解是个啥，然后网上找了找资料才知道这是个啥。。。
+其实就是当前行对上一行的描述，比如第5行描述第四行1个1，1个2，2个1，所以：111221
 
 ## 最高分
 ```golang

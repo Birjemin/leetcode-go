@@ -1,6 +1,10 @@
-package permutations
+package permutations_ii
 
-func permute(nums []int) [][]int {
+import (
+    "sort"
+)
+
+func permuteUnique(nums []int) [][]int {
     length := len(nums)
     if length == 1 {
         return [][]int{
@@ -8,6 +12,7 @@ func permute(nums []int) [][]int {
         }
     }
     var ret [][]int
+    sort.Ints(nums)
     dfs(&ret, nums, []int{})
     return ret
 }
@@ -19,9 +24,14 @@ func dfs(ret *[][]int, nums, temp []int) {
         *ret = append(*ret, b)
     }
     for i, v := range nums {
+
         if i == 0 {
             dfs(ret, nums[i+1:], append(temp, v))
         } else {
+            // if the value is equal to the front value, just continue the circle
+            if i != 0 && nums[i-1] == v {
+                continue
+            }
             b := make([]int, len(nums))
             copy(b, nums)
             dfs(ret, append(b[:i], b[i+1:]...), append(temp, v))

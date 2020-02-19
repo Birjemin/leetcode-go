@@ -53,11 +53,11 @@ func permute(nums []int) [][]int {
         }
     }
     var ret [][]int
-    cal(&ret, nums, []int{})
+    dfs(&ret, nums, []int{})
     return ret
 }
 
-func cal(ret *[][]int, nums, temp []int) {
+func dfs(ret *[][]int, nums, temp []int) {
     if len(nums) == 0 {
         b := make([]int, len(temp))
         copy(b, temp)
@@ -65,11 +65,11 @@ func cal(ret *[][]int, nums, temp []int) {
     }
     for i, v := range nums {
         if i == 0 {
-            cal(ret, nums[i+1:], append(temp, v))
+            dfs(ret, nums[i+1:], append(temp, v))
         } else {
             b := make([]int, len(nums))
             copy(b, nums)
-            cal(ret, append(b[:i], b[i+1:]...), append(temp, v))
+            dfs(ret, append(b[:i], b[i+1:]...), append(temp, v))
         }
     }
 }

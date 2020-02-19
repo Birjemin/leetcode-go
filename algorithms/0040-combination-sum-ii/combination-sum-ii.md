@@ -80,11 +80,11 @@ func calc(index int, t int, c []int, line []int, res *[][]int){
 func combinationSum2(candidates []int, target int) [][]int {
     var ret [][]int
     sort.Ints(candidates)
-    dsf(&ret, candidates, []int{}, target)
+    dfs(&ret, candidates, []int{}, target)
     return ret
 }
 
-func dsf(ret *[][]int, candidates []int, solution []int, target int) bool {
+func dfs(ret *[][]int, candidates []int, solution []int, target int) bool {
     if target == 0 {
         // *ret = append(*ret, solution)
         b := make([]int, len(solution))
@@ -102,7 +102,7 @@ func dsf(ret *[][]int, candidates []int, solution []int, target int) bool {
             continue
         }
         // if find the value, then break this circle
-        if dsf(ret, candidates[i+1:], append(solution, v), target-v) {
+        if dfs(ret, candidates[i+1:], append(solution, v), target-v) {
             break
         }
     }

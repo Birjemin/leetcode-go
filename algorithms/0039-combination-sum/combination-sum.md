@@ -72,11 +72,11 @@ func calc(target, index int, line []int, c []int, pres *[][]int){
 func combinationSum(candidates []int, target int) [][]int {
     var ret [][]int
     sort.Ints(candidates)
-    dsf(&ret, candidates, []int{}, target)
+    dfs(&ret, candidates, []int{}, target)
     return ret
 }
 
-func dsf(ret *[][]int, candidates []int, solution []int, target int) {
+func dfs(ret *[][]int, candidates []int, solution []int, target int) {
     if target == 0 {
         // *ret = append(*ret, solution)
         b := make([]int, len(solution))
@@ -89,7 +89,7 @@ func dsf(ret *[][]int, candidates []int, solution []int, target int) {
         if v > target {
             return
         }
-        dsf(ret, candidates[i:], append(solution, v), target-v)
+        dfs(ret, candidates[i:], append(solution, v), target-v)
     }
 }
 ```
@@ -100,11 +100,11 @@ func dsf(ret *[][]int, candidates []int, solution []int, target int) {
 func combinationSum(candidates []int, target int) [][]int {
     var ret [][]int
     sort.Ints(candidates)
-    dsf(&ret, candidates, []int{}, target)
+    dfs(&ret, candidates, []int{}, target)
     return ret
 }
 
-func dsf(ret *[][]int, candidates []int, solution []int, target int) {
+func dfs(ret *[][]int, candidates []int, solution []int, target int) {
     for i, v := range candidates {
         if v > target {
             return
@@ -118,7 +118,7 @@ func dsf(ret *[][]int, candidates []int, solution []int, target int) {
             *ret = append(*ret, b)
             return
         }
-        dsf(ret, candidates[i:], solution, target-v)
+        dfs(ret, candidates[i:], solution, target-v)
         // should subtract the last element of solution
         solution =solution[:len(solution)-1]
     }

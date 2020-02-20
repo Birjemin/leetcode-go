@@ -45,6 +45,7 @@ Num | Question | Answer | Analysis | tags | Date
 0043 | Multiply Strings | [Answer](/algorithms/0043-multiply-strings/multiply-strings.go) | [Analysis](/algorithms/0043-multiply-strings/multiply-strings.md) | xxx | 2020/02/19
 0046 | Permutations | [Answer](/algorithms/0046-permutations/permutations.go) | [Analysis](/algorithms/0046-permutations/permutations.md) | xxx | 2020/02/19
 0047 | Permutations II | [Answer](/algorithms/0047-permutations-ii/permutations-ii.go) | [Analysis](/algorithms/0047-permutations-ii/permutations-ii.md) | xxx | 2020/02/20
+0048 | Rotate Image | [Answer](/algorithms/0048-rotate-image/rotate-image.go) | [Analysis](/algorithms/0048-rotate-image/rotate-image.md) | xxx | 2020/02/20
 0053 | Maximum Subarray | [Answer](/algorithms/0053-maximum-subarray/maximum-subarray.go) | [Analysis](/algorithms/0053-maximum-subarray/maximum-subarray.md) | xxx | 2020/01/04
 0058 | Length of Last Word | [Answer](/algorithms/0058-length-of-last-word/length-of-last-word.go) | [Analysis](/algorithms/0058-length-of-last-word/length-of-last-word.md) | xxx | 2020/01/04
 0066 | Plus One | [Answer](/algorithms/0066-plus-one/plus-one.go) | [Analysis](/algorithms/0066-plus-one/plus-one.md) | xxx | 2020/01/04

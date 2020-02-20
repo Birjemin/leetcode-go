@@ -24,7 +24,6 @@ func dfs(ret *[][]int, nums, temp []int) {
         *ret = append(*ret, b)
     }
     for i, v := range nums {
-
         if i == 0 {
             dfs(ret, nums[i+1:], append(temp, v))
         } else {

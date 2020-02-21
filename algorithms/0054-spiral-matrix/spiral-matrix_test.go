@@ -21,26 +21,26 @@ type question struct {
 func Test(t *testing.T) {
     ast := assert.New(t)
     qs := []question{
-        // {
-        //     p: param{
-        //         one: [][]int{
-        //             {1},
-        //         },
-        //     },
-        //     a: result{
-        //         one: []int{1},
-        //     },
-        // },
-        // {
-        //     p: param{
-        //         one: [][]int{
-        //             {7, 9, 6},
-        //         },
-        //     },
-        //     a: result{
-        //         one: []int{7, 9, 6},
-        //     },
-        // },
+        {
+            p: param{
+                one: [][]int{
+                    {1},
+                },
+            },
+            a: result{
+                one: []int{1},
+            },
+        },
+        {
+            p: param{
+                one: [][]int{
+                    {7, 9, 6},
+                },
+            },
+            a: result{
+                one: []int{7, 9, 6},
+            },
+        },
         {
             p: param{
                 one: [][]int{

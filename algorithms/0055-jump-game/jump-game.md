@@ -53,7 +53,7 @@ func canJump(nums []int) bool {
 ```
 
 ## 实现
-很精炼的一种解法，需要耐心看看
+很精炼的一种解法，需要耐心看看，和第一题类似，每次等级最大值。
 ```golang
 func canJump(nums []int) bool {
     var k int

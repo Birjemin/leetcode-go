@@ -58,6 +58,7 @@ Num | Question | Answer | Analysis | tags | Date
 0061 | Rotate List | [Answer](/algorithms/0061-rotate-list/rotate-list.go) | [Analysis](/algorithms/0061-rotate-list/rotate-list.md) | xxx | 2020/02/24
 0062 | Unique Paths | [Answer](/algorithms/0062-unique-paths/unique-paths.go) | [Analysis](/algorithms/0062-unique-paths/unique-paths.md) | xxx | 2020/02/24
 0063 | Unique Paths II | [Answer](/algorithms/0063-unique-paths-ii/unique-paths-ii.go) | [Analysis](/algorithms/0063-unique-paths-ii/unique-paths-ii.md) | xxx | 2020/02/25
+0064 | Minimum Path Sum | [Answer](/algorithms/0064-minimum-path-sum/minimum-path-sum.go) | [Analysis](/algorithms/0064-minimum-path-sum/minimum-path-sum.md) | xxx | 2020/02/25
 0066 | Plus One | [Answer](/algorithms/0066-plus-one/plus-one.go) | [Analysis](/algorithms/0066-plus-one/plus-one.md) | xxx | 2020/01/04
 0067 | Add Binary | [Answer](/algorithms/0067-add-binary/add-binary.go) | [Analysis](/algorithms/0067-add-binary/plus-one.md) | xxx | 2020/01/06
 0069 | Sqrt(x) | [Answer](/algorithms/0069-sqrt/sqrt.go) | [Analysis](/algorithms/0069-sqrt/sqrt.md) | xxx | 2020/01/07

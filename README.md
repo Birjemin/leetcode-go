@@ -65,6 +65,7 @@ Num | Question | Answer | Analysis | tags | Date
 0070 | Climbing Stairs | [Answer](/algorithms/0070-climbing-stairs/climbing-stairs.go) | [Analysis](/algorithms/0070-climbing-stairs/climbing-stairs.md) | xxx | 2020/01/11
 0071 | Simplify Path | [Answer](/algorithms/0071-simplify-path/simplify-path.go) | [Analysis](/algorithms/0071-simplify-path/simplify-path.md) | xxx | 2020/02/26
 0073 | Set Matrix Zeroes | [Answer](/algorithms/0073-set-matrix-zeroes/set-matrix-zeroes.go) | [Analysis](/algorithms/0073-set-matrix-zeroes/set-matrix-zeroes.md) | xxx | 2020/02/26
+0074 | Search a 2D Matrix | [Answer](/algorithms/0074-search-a-2d-matrix/search-a-2d-matrix.go) | [Analysis](/algorithms/0074-search-a-2d-matrix/search-a-2d-matrix.md) | xxx | 2020/02/27
 0083 | Remove Duplicates from Sorted List | [Answer](/algorithms/0083-remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.go) | [Analysis](/algorithms/0083-remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.md) | xxx | 2020/01/11
 0088 | Merge Sorted Array | [Answer](/algorithms/0088-merge-sorted-array/merge-sorted-array.go) | [Analysis](/algorithms/0088-merge-sorted-array/merge-sorted-array.md) | xxx | 2020/01/11
 0100 | Same Tree | [Answer](/algorithms/0100-same-tree/same-tree.go) | [Analysis](/algorithms/0100-same-tree/same-tree.md) | xxx | 2020/01/11

@@ -19,7 +19,7 @@ func searchMatrix(matrix [][]int, target int) bool {
         }
     }
 
-    // split
+    // dichotomy search
     left, mid := 0, width/2
     for ; mid != left; mid = (width-left)/2 + left {
         if matrix[row][mid] == target {

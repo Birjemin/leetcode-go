@@ -69,6 +69,7 @@ Num | Question | Answer | Analysis | tags | Date
 0075 | Sort Colors | [Answer](/algorithms/0075-sort-colors/sort-colors.go) | [Analysis](/algorithms/0075-sort-colors/sort-colors.md) | xxx | 2020/02/28
 0077 | Combinations | [Answer](/algorithms/0077-combinations/combinations.go) | [Analysis](/algorithms/0077-combinations/combinations.md) | xxx | 2020/02/28
 0078 | Subsets | [Answer](/algorithms/0078-subsets/subsets.go) | [Analysis](/algorithms/0078-subsets/subsets.md) | xxx | 2020/02/28
+0079 | Word Search | [Answer](/algorithms/0079-word-search/word-search.go) | [Analysis](/algorithms/0079-word-search/word-search.md) | xxx | 2020/02/29
 0083 | Remove Duplicates from Sorted List | [Answer](/algorithms/0083-remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.go) | [Analysis](/algorithms/0083-remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.md) | xxx | 2020/01/11
 0088 | Merge Sorted Array | [Answer](/algorithms/0088-merge-sorted-array/merge-sorted-array.go) | [Analysis](/algorithms/0088-merge-sorted-array/merge-sorted-array.md) | xxx | 2020/01/11
 0100 | Same Tree | [Answer](/algorithms/0100-same-tree/same-tree.go) | [Analysis](/algorithms/0100-same-tree/same-tree.md) | xxx | 2020/01/11

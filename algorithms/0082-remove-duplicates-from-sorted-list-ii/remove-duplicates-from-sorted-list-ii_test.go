@@ -101,10 +101,6 @@ func Test(t *testing.T) {
     }
     for _, q := range qs {
         a, p := q.a, q.p
-        showListNode(p.one)
-        res := deleteDuplicates(p.one)
-        showListNode(res)
-        fmt.Print("----\n")
-        ast.Equal(a.one, res, "输入:%v", q)
+        ast.Equal(a.one, deleteDuplicates(p.one), "输入:%v", q)
     }
 }

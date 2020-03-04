@@ -76,4 +76,5 @@ Num | Question | Answer | Analysis | tags | Date
 0083 | Remove Duplicates from Sorted List | [Answer](/algorithms/0083-remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.go) | [Analysis](/algorithms/0083-remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.md) | xxx | 2020/01/11
 0086 | Partition List | [Answer](/algorithms/0086-partition-list/partition-list.go) | [Analysis](/algorithms/0086-partition-list/partition-list.md) | xxx | 2020/03/03
 0088 | Merge Sorted Array | [Answer](/algorithms/0088-merge-sorted-array/merge-sorted-array.go) | [Analysis](/algorithms/0088-merge-sorted-array/merge-sorted-array.md) | xxx | 2020/01/11
+0089 | Gray Code | [Answer](/algorithms/0089-gray-code/gray-code.go) | [Analysis](/algorithms/0089-gray-code/gray-code.md) | xxx | 2020/03/04
 0100 | Same Tree | [Answer](/algorithms/0100-same-tree/same-tree.go) | [Analysis](/algorithms/0100-same-tree/same-tree.md) | xxx | 2020/01/11

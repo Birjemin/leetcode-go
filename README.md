@@ -78,4 +78,5 @@ Num | Question | Answer | Analysis | tags | Date
 0088 | Merge Sorted Array | [Answer](/algorithms/0088-merge-sorted-array/merge-sorted-array.go) | [Analysis](/algorithms/0088-merge-sorted-array/merge-sorted-array.md) | xxx | 2020/01/11
 0089 | Gray Code | [Answer](/algorithms/0089-gray-code/gray-code.go) | [Analysis](/algorithms/0089-gray-code/gray-code.md) | xxx | 2020/03/04
 0090 | Subsets II | [Answer](/algorithms/0090-subsets-ii/subsets-ii.go) | [Analysis](/algorithms/0090-subsets-ii/subsets-ii.md) | xxx | 2020/03/05
+0091 | Decode Ways | [Answer](/algorithms/0091-decode-ways/decode-ways.go) | [Analysis](/algorithms/0091-decode-ways/decode-ways.md) | xxx | 2020/03/07
 0100 | Same Tree | [Answer](/algorithms/0100-same-tree/same-tree.go) | [Analysis](/algorithms/0100-same-tree/same-tree.md) | xxx | 2020/01/11

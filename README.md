@@ -84,5 +84,5 @@ Num | Question | Answer | Analysis | tags | Date
 0094 | Binary Tree Inorder Traversal | [Answer](/algorithms/0094-binary-tree-inorder-traversal/binary-tree-inorder-traversal.go) | [Analysis](/algorithms/0094-binary-tree-inorder-traversal/binary-tree-inorder-traversal.md) | xxx | 2020/03/10
 0095 | Unique Binary Search Trees II | [Answer](/algorithms/0095-unique-binary-search-trees-ii/unique-binary-search-trees-ii.go) | [Analysis](/algorithms/0095-unique-binary-search-trees-ii/unique-binary-search-trees-ii.md) | xxx | 2020/03/11
 0096 | Unique Binary Search Trees | [Answer](/algorithms/0096-unique-binary-search-trees/unique-binary-search-trees.go) | [Analysis](/algorithms/0096-unique-binary-search-trees/unique-binary-search-trees.md) | xxx | 2020/03/11
-0098 | Validate Binary Search Tree | [Answer](/algorithms/0098-validate-binary-search-tree/validate-binary-search-tree.go) | [Analysis](/algorithms/0098-validate-binary-search-tree/validate-binary-search-tree.md) | xxx | 2020/03/11
+0098 | Validate Binary Search Tree | [Answer](/algorithms/0098-validate-binary-search-tree/validate-binary-search-tree.go) | [Analysis](/algorithms/0098-validate-binary-search-tree/validate-binary-search-tree.md) | xxx | 2020/03/12
 0100 | Same Tree | [Answer](/algorithms/0100-same-tree/same-tree.go) | [Analysis](/algorithms/0100-same-tree/same-tree.md) | xxx | 2020/01/11

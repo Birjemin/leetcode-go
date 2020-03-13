@@ -87,3 +87,4 @@ Num | Question | Answer | Analysis | tags | Date
 0098 | Validate Binary Search Tree | [Answer](/algorithms/0098-validate-binary-search-tree/validate-binary-search-tree.go) | [Analysis](/algorithms/0098-validate-binary-search-tree/validate-binary-search-tree.md) | xxx | 2020/03/12
 0100 | Same Tree | [Answer](/algorithms/0100-same-tree/same-tree.go) | [Analysis](/algorithms/0100-same-tree/same-tree.md) | xxx | 2020/01/11
 0101 | Symmetric Tree | [Answer](/algorithms/0101-symmetric-tree/symmetric-tree.go) | [Analysis](/algorithms/0101-symmetric-tree/symmetric-tree.md) | xxx | 2020/03/13
+0104 | Maximum Depth of Binary Tree | [Answer](/algorithms/0104-maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.go) | [Analysis](/algorithms/0104-maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.md) | xxx | 2020/03/13

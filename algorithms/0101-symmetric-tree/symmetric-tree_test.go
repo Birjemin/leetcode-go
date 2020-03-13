@@ -1,4 +1,4 @@
-package same_tree
+package symmetric_tree
 
 import (
     "github.com/stretchr/testify/assert"
@@ -7,7 +7,6 @@ import (
 
 type param struct {
     one *TreeNode
-    two *TreeNode
 }
 
 type result struct {
@@ -52,8 +51,7 @@ func Test(t *testing.T) {
     qs := []question{
         {
             p: param{
-                one: makeTreeNode([]int{1, 2, 3}),
-                two: makeTreeNode([]int{1, 2, 3}),
+                one: makeTreeNode([]int{1, 2, 2, 3, 4, 4, 3}),
             },
             a: result{
                 one: true,
@@ -61,8 +59,7 @@ func Test(t *testing.T) {
         },
         {
             p: param{
-                one: makeTreeNode([]int{1, 2}),
-                two: makeTreeNode([]int{1, 0, 2}),
+                one: makeTreeNode([]int{1, 2, 2, 0, 3, 0, 3}),
             },
             a: result{
                 one: false,
@@ -70,16 +67,23 @@ func Test(t *testing.T) {
         },
         {
             p: param{
-                one: makeTreeNode([]int{1, 2, 1}),
-                two: makeTreeNode([]int{1, 1, 2}),
+                one: makeTreeNode([]int{1, 2, 2, 2, 0, 2}),
             },
             a: result{
                 one: false,
             },
         },
+        {
+            p: param{
+                one: makeTreeNode([]int{}),
+            },
+            a: result{
+                one: true,
+            },
+        },
     }
     for _, q := range qs {
         a, p := q.a, q.p
-        ast.Equal(a.one, isSameTree(p.one, p.two), "输入:%v", q)
+        ast.Equal(a.one, isSymmetric(p.one), "输入:%v", q)
     }
 }

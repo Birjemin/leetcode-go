@@ -18,7 +18,7 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 ```
 
 ## 分析
-
+左边右边两支迭代
 
 ## 最高分
 减少了一个判断，不使用切片
@@ -44,7 +44,7 @@ func helper(nums []int, i, j int) *TreeNode {
 ```
 
 ## 实现
-自己回溯
+使用递归函数
 ```golang
 func sortedArrayToBST(nums []int) *TreeNode {
     length := len(nums)

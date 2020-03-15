@@ -32,27 +32,27 @@ Assume we are dealing with an environment which could only store integers within
 ## 实现
 ```golang
 func reverse(x int) int {
-	var res int
-	for x != 0 {
-		res = res * 10 + x % 10
-		x = x / 10
-	}
-	if res > math.MaxInt32 || res < math.MinInt32 {
-		return 0
-	}
-	return res
+    var res int
+    for x != 0 {
+        res = res * 10 + x % 10
+        x = x / 10
+    }
+    if res > math.MaxInt32 || res < math.MinInt32 {
+        return 0
+    }
+    return res
 }
 
 func reverse(x int) int {
-	var res int
-	for x != 0 {
-		res = res * 10 + x % 10
-		x = x / 10
+    var res int
+    for x != 0 {
+        res = res * 10 + x % 10
+        x = x / 10
         if res > math.MaxInt32 || res < math.MinInt32 {
-		    return 0
-	    }
-	}
-	return res
+            return 0
+        }
+    }
+    return res
 }
 ```
 
@@ -60,23 +60,23 @@ func reverse(x int) int {
 减少内存的使用
 ```golang
 func reverse(x int) int {
-	var res int
-	var tag bool
-	if x < 0 {
-		tag = true
-		x = -x
-	}
-	for x != 0 {
-		res = res * 10 + x % 10
-		x = x / 10
-		if res > math.MaxInt32 || res < math.MinInt32 {
-			return 0
-		}
-	}
-	if tag {
-		return -res
-	}
-	return res
+    var res int
+    var tag bool
+    if x < 0 {
+        tag = true
+        x = -x
+    }
+    for x != 0 {
+        res = res * 10 + x % 10
+        x = x / 10
+        if res > math.MaxInt32 || res < math.MinInt32 {
+            return 0
+        }
+    }
+    if tag {
+        return -res
+    }
+    return res
 }
 ```
 

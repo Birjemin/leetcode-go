@@ -21,7 +21,7 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 ```
 
 ## 分析
-获取最高差，如何使用一次循环解决此类问题？
+获取最高差，如何使用一次循环解决此类问题？这道题目和11题很像，有类似的思路，一次循环解决
 
 ## 最高分
 ```golang

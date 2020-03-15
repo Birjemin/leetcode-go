@@ -20,7 +20,7 @@ return its minimum depth = 2.
 
 ## 分析
 求解二叉树的最小深度。获取一个节点的左右子树，取小的深度即可
-
+- 最小深度是从根节点到最近叶子节点的最短路径上的节点数量。（得理解这句话，测试用例第5个！！）
 ## 最高分
 解法直观、便于理解
 ```golang
@@ -57,6 +57,7 @@ func minDepth(root *TreeNode) int {
 ```
 
 ## 实现
+我的实现有点复杂，考虑使用共享内存，题目没太理解，
 ```golang
 func minDepth(root *TreeNode) int {
     var depth int

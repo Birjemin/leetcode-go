@@ -99,3 +99,4 @@ Num | Question | Answer | Analysis | tags | Date
 0122 | Best Time to Buy and Sell Stock ii | [Answer](/algorithms/0122-best-time-to-buy-and-sell-stock-ii/best-time-to-buy-and-sell-stock-ii.go) | [Analysis](/algorithms/0122-best-time-to-buy-and-sell-stock-ii/best-time-to-buy-and-sell-stock-ii.md) | xxx | 2020/03/15
 0125 | Valid Palindrome | [Answer](/algorithms/0125-valid-palindrome/valid-palindrome.go) | [Analysis](/algorithms/0125-valid-palindrome/valid-palindrome.md) | xxx | 2020/03/15
 0136 | Single Number | [Answer](/algorithms/0136-single-number/single-number.go) | [Analysis](/algorithms/0136-single-number/single-number.md) | xxx | 2020/03/16
+0141 | Linked List Cycle | [Answer](/algorithms/0141-linked-list-cycle/linked-list-cycle.go) | [Analysis](/algorithms/0141-linked-list-cycle/linked-list-cycle.md) | xxx | 2020/03/16

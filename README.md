@@ -102,3 +102,4 @@ Num | Question | Answer | Analysis | tags | Date
 0141 | Linked List Cycle | [Answer](/algorithms/0141-linked-list-cycle/linked-list-cycle.go) | [Analysis](/algorithms/0141-linked-list-cycle/linked-list-cycle.md) | xxx | 2020/03/16
 0155 | Min Stack | [Answer](/algorithms/0155-min-stack/min-stack.go) | [Analysis](/algorithms/0155-min-stack/min-stack.md) | xxx | 2020/03/17
 0160 | Intersection of Two Linked Lists | [Answer](/algorithms/0160-intersection-of-two-linked-lists/intersection-of-two-linked-lists.go) | [Analysis](/algorithms/0160-intersection-of-two-linked-lists/intersection-of-two-linked-lists.md) | xxx | 2020/03/19
+0167 | Two Sum II - Input array is sorted | [Answer](/algorithms/0167-intersection-of-two-linked-lists/intersection-of-two-linked-lists.go) | [Analysis](/algorithms/0167-intersection-of-two-linked-lists/intersection-of-two-linked-lists.md) | xxx | 2020/03/19

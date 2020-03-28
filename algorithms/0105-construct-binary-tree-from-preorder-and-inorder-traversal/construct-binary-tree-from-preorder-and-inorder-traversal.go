@@ -7,17 +7,17 @@ type TreeNode struct {
 }
 
 func buildTree(preorder []int, inorder []int) *TreeNode {
-    if len(preorder) == 0 {
+    length := len(preorder)
+    if length == 0 {
         return nil
     }
     head := &TreeNode{Val: preorder[0]}
     t := head
-    cal(t, preorder, inorder)
+    cal(t, preorder, inorder, length)
     return head
 }
 
-func cal(t *TreeNode, preorder, inorder []int) {
-    length := len(preorder)
+func cal(t *TreeNode, preorder, inorder []int, length int) {
     if length == 0 {
         return
     }
@@ -26,12 +26,12 @@ func cal(t *TreeNode, preorder, inorder []int) {
 
     if i != 0 {
         t.Left = &TreeNode{Val: preorder[1]}
-        cal(t.Left, preorder[1:1+i], inorder[:i])
+        cal(t.Left, preorder[1:1+i], inorder[:i], i)
     }
 
     if i != length-1 {
         t.Right = &TreeNode{Val: preorder[1+i]}
-        cal(t.Right, preorder[1+i:], inorder[i+1:])
+        cal(t.Right, preorder[1+i:], inorder[1+i:], length-1-i)
     }
 }
 

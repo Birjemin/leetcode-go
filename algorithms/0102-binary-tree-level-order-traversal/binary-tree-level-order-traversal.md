@@ -21,7 +21,8 @@ return its level order traversal as:
 ```
 
 ## 分析
-二叉树的层次遍历，可以使用bfs算法，bfs算法也可
+二叉树的层次遍历
+- 可以使用bfs算法，bfs算法也可
 
 ## 最高分
 ```golang

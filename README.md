@@ -110,3 +110,4 @@ Num | Question | Answer | Analysis | tags | Date
 0189 | Rotate Array | [Answer](/algorithms/0189-rotate-array/rotate-array.go) | [Analysis](/algorithms/0189-rotate-array/rotate-array.md) | xxx | 2020/03/23
 0190 | Reverse Bits | [Answer](/algorithms/0190-reverse-bits/reverse-bits.go) | [Analysis](/algorithms/0190-reverse-bits/reverse-bits.md) | xxx | 2020/03/25
 0191 | Number of 1 Bits | [Answer](/algorithms/0191-number-of-1-bits/number-of-1-bits.go) | [Analysis](/algorithms/0191-number-of-1-bits/number-of-1-bits.md) | xxx | 2020/03/25
+0198 | House Robber | [Answer](/algorithms/0198-house-robber/house-robber.go) | [Analysis](/algorithms/0198-house-robber/house-robber.md) | xxx | 2020/03/28

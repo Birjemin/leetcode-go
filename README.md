@@ -1,6 +1,6 @@
 # leetcode-go
 
-## leetcode
+## leetode
 https://leetcode.com/problemset/algorithms/
 
 https://github.com/kylesliu/awesome-golang-leetcode
@@ -60,7 +60,7 @@ Num | Question | Answer | Analysis | tags | Date
 0063 | Unique Paths II | [Answer](/algorithms/0063-unique-paths-ii/unique-paths-ii.go) | [Analysis](/algorithms/0063-unique-paths-ii/unique-paths-ii.md) | xxx | 2020/02/25
 0064 | Minimum Path Sum | [Answer](/algorithms/0064-minimum-path-sum/minimum-path-sum.go) | [Analysis](/algorithms/0064-minimum-path-sum/minimum-path-sum.md) | xxx | 2020/02/25
 0066 | Plus One | [Answer](/algorithms/0066-plus-one/plus-one.go) | [Analysis](/algorithms/0066-plus-one/plus-one.md) | xxx | 2020/01/04
-0067 | Add Binary | [Answer](/algorithms/0067-add-binary/add-binary.go) | [Analysis](/algorithms/0067-add-binary/plus-one.md) | xxx | 2020/01/06
+0067 | Add Binary | [Answer](/algorithms/0067-add-binary/add-binary.go) | [Analysis](/algorithms/0067-add-binary/add-binary.md) | xxx | 2020/01/06
 0069 | Sqrt(x) | [Answer](/algorithms/0069-sqrt/sqrt.go) | [Analysis](/algorithms/0069-sqrt/sqrt.md) | xxx | 2020/01/07
 0070 | Climbing Stairs | [Answer](/algorithms/0070-climbing-stairs/climbing-stairs.go) | [Analysis](/algorithms/0070-climbing-stairs/climbing-stairs.md) | xxx | 2020/01/11
 0071 | Simplify Path | [Answer](/algorithms/0071-simplify-path/simplify-path.go) | [Analysis](/algorithms/0071-simplify-path/simplify-path.md) | xxx | 2020/02/26
@@ -90,10 +90,11 @@ Num | Question | Answer | Analysis | tags | Date
 0102 | Binary Tree Level Order Traversal | [Answer](/algorithms/0102-binary-tree-level-order-traversal/binary-tree-level-order-traversal.go) | [Analysis](/algorithms/0102-binary-tree-level-order-traversal/binary-tree-level-order-traversal.md) | xxx | 2020/03/28
 0103 | Binary Tree Zigzag Level Order Traversal | [Answer](/algorithms/0103-binary-tree-zigzag-level-order-traversal/binary-tree-zigzag-level-order-traversal.go) | [Analysis](/algorithms/0103-binary-tree-zigzag-level-order-traversal/binary-tree-zigzag-level-order-traversal.md) | xxx | 2020/03/28
 0104 | Maximum Depth of Binary Tree | [Answer](/algorithms/0104-maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.go) | [Analysis](/algorithms/0104-maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.md) | xxx | 2020/03/13
-0105 | Construct Binary Tree from Preorder and Inorder Traversal | [Answer](/algorithms/0105-binary-tree-zigzag-level-order-traversal/binary-tree-zigzag-level-order-traversal.go) | [Analysis](/algorithms/0105-binary-tree-zigzag-level-order-traversal/binary-tree-zigzag-level-order-traversal.md) | xxx | 2020/03/28
+0105 | Construct Binary Tree from Preorder and Inorder Traversal | [Answer](/algorithms/0105-construct-binary-tree-from-preorder-and-inorder-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.go) | [Analysis](/algorithms/0105-construct-binary-tree-from-preorder-and-inorder-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.md) | xxx | 2020/03/28
 0106 | Construct Binary Tree from Inorder and Postorder Traversal | [Answer](/algorithms/0106-construct-binary-tree-from-inorder-and-postorder-traversal/construct-binary-tree-from-inorder-and-postorder-traversal.go) | [Analysis](/algorithms/0106-construct-binary-tree-from-inorder-and-postorder-traversal/construct-binary-tree-from-inorder-and-postorder-traversal.md) | xxx | 2020/03/28
 0107 | Binary Tree Level Order Traversal II | [Answer](/algorithms/0107-binary-tree-level-order-traversal-ii/binary-tree-level-order-traversal-ii.go) | [Analysis](/algorithms/0107-binary-tree-level-order-traversal-ii/binary-tree-level-order-traversal-ii.md) | xxx | 2020/03/13
 0108 | Convert Sorted Array to Binary Search Tree | [Answer](/algorithms/0108-convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.go) | [Analysis](/algorithms/0108-convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.md) | xxx | 2020/03/14
+0109 | Convert Sorted List to Binary Search Tree | [Answer](/algorithms/0109-convert-sorted-list-to-binary-search-tree/convert-sorted-list-to-binary-search-tree.go) | [Analysis](/algorithms/0109-convert-sorted-list-to-binary-search-tree/convert-sorted-list-to-binary-search-tree.md) | xxx | 2020/03/29
 0110 | Balanced Binary Tree | [Answer](/algorithms/0110-balanced-binary-tree/balanced-binary-tree.go) | [Analysis](/algorithms/0110-balanced-binary-tree/balanced-binary-tree.md) | xxx | 2020/03/14
 0111 | Minimum Depth of Binary Tree | [Answer](/algorithms/0111-minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.go) | [Analysis](/algorithms/0111-minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.md) | xxx | 2020/03/15
 0112 | Path Sum | [Answer](/algorithms/0112-path-sum/path-sum.go) | [Analysis](/algorithms/0112-path-sum/path-sum.md) | xxx | 2020/03/15

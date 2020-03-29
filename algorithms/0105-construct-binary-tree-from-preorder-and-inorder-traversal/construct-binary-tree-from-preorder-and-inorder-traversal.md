@@ -131,7 +131,7 @@ func findIdx(inorder []int, val int) int {
 
 ## 改进
 激进的做法
-```
+```golang
 func findIdx(inorder []int, val int) int {
     for i, v := range inorder {
         if v == val {

@@ -40,7 +40,8 @@ func sortedListToBST(head *ListNode) *TreeNode {
     if head == nil {
         return nil
     }
-    return cal(toArr(head))
+    temp := toArr(head)
+    return cal(temp)
 }
 
 func cal(arr []int) *TreeNode {
@@ -67,7 +68,40 @@ func toArr(head *ListNode) (ret []int) {
 ## 改进
 快慢指针
 ```golang
+func sortedListToBST(head *ListNode) *TreeNode {
+    idx := findIndex(head)
+    if idx == nil {
+        return nil
+    }
+    if idx.Next == nil {
+        return &TreeNode{Val: idx.Val}
+    }
 
+    val, n := idx.Next.Val, idx.Next.Next
+    idx.Next = nil
+
+    return &TreeNode{
+        Val:   val,
+        Left:  sortedListToBST(head),
+        Right: sortedListToBST(n)}
+}
+
+func findIndex(slow *ListNode) *ListNode {
+    if slow == nil {
+        return nil
+    }
+    if slow.Next == nil {
+        return slow
+    }
+    fast := slow.Next
+    for {
+        fast = fast.Next
+        if fast == nil || fast.Next == nil {
+            return slow
+        }
+        fast, slow = fast.Next, slow.Next
+    }
+}
 ```
 
 ## 反思

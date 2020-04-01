@@ -12,29 +12,36 @@ type TreeNode struct {
 }
 
 func sortedListToBST(head *ListNode) *TreeNode {
-    if head == nil {
+    idx := findIndex(head)
+    if idx == nil {
         return nil
     }
-    temp := toArr(head)
-    return cal(temp)
-}
+    if idx.Next == nil {
+        return &TreeNode{Val: idx.Val}
+    }
 
-func cal(arr []int) *TreeNode {
-    length := len(arr)
-    if length == 0 {
-        return nil
-    }
-    mid := length / 2
+    val, n := idx.Next.Val, idx.Next.Next
+    idx.Next = nil
+
     return &TreeNode{
-        Val:   arr[mid],
-        Left:  cal(arr[:mid]),
-        Right: cal(arr[mid+1:]),
-    }
+        Val:   val,
+        Left:  sortedListToBST(head),
+        Right: sortedListToBST(n)}
 }
 
-func toArr(head *ListNode) (ret []int) {
-    for ; head != nil; head = head.Next {
-        ret = append(ret, head.Val)
+func findIndex(slow *ListNode) *ListNode {
+    if slow == nil {
+        return nil
     }
-    return
+    if slow.Next == nil {
+        return slow
+    }
+    fast := slow.Next
+    for {
+        fast = fast.Next
+        if fast == nil || fast.Next == nil {
+            return slow
+        }
+        fast, slow = fast.Next, slow.Next
+    }
 }

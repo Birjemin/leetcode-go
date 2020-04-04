@@ -99,6 +99,7 @@ Num | Question | Answer | Analysis | tags | Date
 0111 | Minimum Depth of Binary Tree | [Answer](/algorithms/0111-minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.go) | [Analysis](/algorithms/0111-minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.md) | xxx | 2020/03/15
 0112 | Path Sum | [Answer](/algorithms/0112-path-sum/path-sum.go) | [Analysis](/algorithms/0112-path-sum/path-sum.md) | xxx | 2020/03/15
 0113 | Path Sum II | [Answer](/algorithms/0113-path-sum-ii/path-sum-ii.go) | [Analysis](/algorithms/0113-path-sum-ii/path-sum-ii.md) | xxx | 2020/04/01
+0114 | Flatten Binary Tree to Linked List | [Answer](/algorithms/0114-flatten-binary-tree-to-linked-list/flatten-binary-tree-to-linked-list.go) | [Analysis](/algorithms/0114-flatten-binary-tree-to-linked-list/flatten-binary-tree-to-linked-list.md) | xxx | 2020/04/04
 0118 | Pascal's Triangle | [Answer](/algorithms/0118-pascals-triangle/pascals-triangle.go) | [Analysis](/algorithms/0118-pascals-triangle/pascals-triangle.md) | xxx | 2020/03/15
 0119 | Pascal's Triangle II | [Answer](/algorithms/0119-pascals-triangle-ii/pascals-triangle-ii.go) | [Analysis](/algorithms/0119-pascals-triangle-ii/pascals-triangle-ii.md) | xxx | 2020/03/15
 0121 | Best Time to Buy and Sell Stock | [Answer](/algorithms/0121-best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.go) | [Analysis](/algorithms/0121-best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.md) | xxx | 2020/03/15

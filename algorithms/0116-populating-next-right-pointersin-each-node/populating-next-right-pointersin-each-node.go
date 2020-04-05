@@ -39,9 +39,9 @@ func connect1(root *Node) *Node {
         return nil
     }
     for l := root; l.Left != nil; l = l.Left {
-        for r := l; r.Next != nil; r = r.Next {
+        for r := l; r != nil; r = r.Next {
             r.Left.Next = r.Right
-            if r.Right != nil {
+            if r.Next != nil {
                 r.Right.Next = r.Next.Left
             }
         }

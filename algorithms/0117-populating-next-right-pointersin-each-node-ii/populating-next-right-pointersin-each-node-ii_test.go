@@ -1,7 +1,6 @@
 package populating_next_right_pointersin_each_node_ii
 
 import (
-    "fmt"
     "github.com/stretchr/testify/assert"
     "testing"
 )
@@ -85,7 +84,6 @@ func Test(t *testing.T) {
         a, p := q.a, q.p
         var ret []int
         showTreeNode([]*Node{connect1(p.one)}, &ret)
-        fmt.Println("res: ", ret)
         ast.Equal(a.one, ret, "输入:%v", q)
     }
 }

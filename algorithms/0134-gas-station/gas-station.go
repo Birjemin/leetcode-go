@@ -37,21 +37,21 @@ func canCompleteCircuit(gas []int, cost []int) int {
 }
 
 func canCompleteCircuit1(gas []int, cost []int) int {
-    total, curr, start := 0, 0, 0
+    // now gas
+    // left gas
+    var now, left, p int
     for i, v := range gas {
-        // v - cost
-        total += v - cost[i]
-        curr += v - cost[i]
+        now += v - cost[i]
+        left += v - cost[i]
 
-        if curr < 0 {
-            start, curr = i+1, 0
+        if now < 0 {
+            now = 0
+            p = i
         }
     }
-
-    // got if
-    if total >= 0 {
-        return start
+    if left >= 0 {
+        return p + 1
     }
-
     return -1
+
 }

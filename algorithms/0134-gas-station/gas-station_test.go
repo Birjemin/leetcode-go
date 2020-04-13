@@ -61,7 +61,7 @@ func Test(t *testing.T) {
     }
     for _, q := range qs {
         a, p := q.a, q.p
-        // ast.Equal(a.one, canCompleteCircuit(p.one, p.two), "输入:%v", q)
         ast.Equal(a.one, canCompleteCircuit1(p.one, p.two), "输入:%v", q)
+        ast.Equal(a.one, canCompleteCircuit(p.one, p.two), "输入:%v", q)
     }
 }

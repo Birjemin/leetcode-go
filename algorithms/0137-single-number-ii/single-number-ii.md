@@ -57,15 +57,9 @@ func singleNumber(nums []int) int {
 ```
 
 ## 改进
+使用一个32位数字，每一位代表一个数字，然后计数+1,最后为1的就是所求的值
 ```golang
-func singleNumber(nums []int) int {
-	ones, twos := 0, 0
-	for i := 0; i < len(nums); i++ {
-		ones = (ones ^ nums[i]) & ^twos
-		twos = (twos ^ nums[i]) & ^ones
-	}
-	return ones
-}
+
 ```
 
 ## 反思

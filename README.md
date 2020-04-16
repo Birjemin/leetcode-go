@@ -119,6 +119,7 @@ Num | Question | Answer | Analysis | tags | Date
 0138 | Copy List with Random Pointer | [Answer](/algorithms/0138-copy-list-with-random-pointer/copy-list-with-random-pointer.go) | [Analysis](/algorithms/0138-copy-list-with-random-pointer/copy-list-with-random-pointer.md) | xxx | 2020/04/15
 0139 | Word Break | [Answer](/algorithms/0139-word-break/word-break.go) | [Analysis](/algorithms/0139-word-break/word-break.md) | xxx | 2020/04/16
 0141 | Linked List Cycle | [Answer](/algorithms/0141-linked-list-cycle/linked-list-cycle.go) | [Analysis](/algorithms/0141-linked-list-cycle/linked-list-cycle.md) | xxx | 2020/03/16
+0142 | Linked List Cycle II | [Answer](/algorithms/0142-linked-list-cycle-ii/linked-list-cycle-ii.go) | [Analysis](/algorithms/0142-linked-list-cycle-ii/linked-list-cycle-ii.md) | xxx | 2020/04/16
 0155 | Min Stack | [Answer](/algorithms/0155-min-stack/min-stack.go) | [Analysis](/algorithms/0155-min-stack/min-stack.md) | xxx | 2020/03/17
 0160 | Intersection of Two Linked Lists | [Answer](/algorithms/0160-intersection-of-two-linked-lists/intersection-of-two-linked-lists.go) | [Analysis](/algorithms/0160-intersection-of-two-linked-lists/intersection-of-two-linked-lists.md) | xxx | 2020/03/19
 0167 | Two Sum II - Input array is sorted | [Answer](/algorithms/0167-two-sum-ii-input-array-is-sorted/two-sum-ii-input-array-is-sorted.go) | [Analysis](/algorithms/0167-two-sum-ii-input-array-is-sorted/two-sum-ii-input-array-is-sorted.md) | xxx | 2020/03/20

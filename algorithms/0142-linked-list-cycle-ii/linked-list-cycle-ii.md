@@ -40,7 +40,25 @@ Explanation: There is no cycle in the linked list.
 
 ## 最高分
 ```golang
+func detectCycle(head *ListNode) *ListNode {
+	if head == nil || head.Next == nil {
+		return nil
+	}
 
+	slow, fast := head.Next, head.Next.Next
+	for fast != nil && fast.Next != nil && slow != fast {
+		slow, fast = slow.Next, fast.Next.Next
+	}
+
+	if slow != fast {
+		return nil
+	}
+
+	for slow != head {
+		slow, head = slow.Next, head.Next
+	}
+	return slow
+}
 ```
 
 ## 实现

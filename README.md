@@ -120,6 +120,8 @@ Num | Question | Answer | Analysis | tags | Date
 0139 | Word Break | [Answer](/algorithms/0139-word-break/word-break.go) | [Analysis](/algorithms/0139-word-break/word-break.md) | xxx | 2020/04/16
 0141 | Linked List Cycle | [Answer](/algorithms/0141-linked-list-cycle/linked-list-cycle.go) | [Analysis](/algorithms/0141-linked-list-cycle/linked-list-cycle.md) | xxx | 2020/03/16
 0142 | Linked List Cycle II | [Answer](/algorithms/0142-linked-list-cycle-ii/linked-list-cycle-ii.go) | [Analysis](/algorithms/0142-linked-list-cycle-ii/linked-list-cycle-ii.md) | xxx | 2020/04/16
+0143 | Reorder List | [Answer](/algorithms/0143-reorder-list/reorder-list.go) | [Analysis](/algorithms/0143-reorder-list/reorder-list.md) | xxx | 2020/04/21
+0144 | Binary Tree Preorder Traversal | [Answer](/algorithms/0144-binary-tree-preorder-traversal/binary-tree-preorder-traversal.go) | [Analysis](/algorithms/0144-binary-tree-preorder-traversal/binary-tree-preorder-traversal.md) | xxx | 2020/04/21
 0155 | Min Stack | [Answer](/algorithms/0155-min-stack/min-stack.go) | [Analysis](/algorithms/0155-min-stack/min-stack.md) | xxx | 2020/03/17
 0160 | Intersection of Two Linked Lists | [Answer](/algorithms/0160-intersection-of-two-linked-lists/intersection-of-two-linked-lists.go) | [Analysis](/algorithms/0160-intersection-of-two-linked-lists/intersection-of-two-linked-lists.md) | xxx | 2020/03/19
 0167 | Two Sum II - Input array is sorted | [Answer](/algorithms/0167-two-sum-ii-input-array-is-sorted/two-sum-ii-input-array-is-sorted.go) | [Analysis](/algorithms/0167-two-sum-ii-input-array-is-sorted/two-sum-ii-input-array-is-sorted.md) | xxx | 2020/03/20

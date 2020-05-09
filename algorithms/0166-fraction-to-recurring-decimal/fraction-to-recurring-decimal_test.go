@@ -138,7 +138,8 @@ func Test(t *testing.T) {
 			a: result{
 				one: "0",
 			},
-		},}
+		},
+	}
 	for _, q := range qs {
 		a, p := q.a, q.p
 		ast.Equal(a.one, fractionToDecimal(p.one, p.two), "输入:%v", q)

@@ -91,5 +91,6 @@ func Test(t *testing.T) {
 	for _, q := range qs {
 		a, p := q.a, q.p
 		ast.Equal(a.one, largestNumber(p.one), "输入:%v", p)
+		ast.Equal(a.one, largestNumber1(p.one), "输入:%v", p)
 	}
 }

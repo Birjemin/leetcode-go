@@ -21,6 +21,14 @@ Note: The result may be very large, so you need to return a string instead of an
 
 想了一天，想不出来，看似很简单，但是解法还真的难想~(golang中有字符串的比较大小)
 
+其实最好的解决方式就是：快速排序在字符串中的使用~，归并排序也可以
+
+快速排序：选择一个基准，进行排序
+
+归并排序：从细分成最小单位，然后每个最小单位排序，然后合并（合并也要排序）
+
+插入排序：将一个数据插入到已经排好序的有序数据（一般使用希尔排序）
+
 ## 最高分
 ```golang
 func largestNumber(nums []int) string {
@@ -103,6 +111,71 @@ func largestNumber(nums []int) string {
 ```
 
 ## 改进
+快速排序
+```golang
+// quick's sort
+func largestNumber(nums []int) string {
+	strs := make([]string, len(nums))
+	
+	for i, num := range nums {
+		strs[i] = strconv.Itoa(num)
+	}
+	
+	quickSort(strs, 0, len(strs)-1)
+
+	ret := strings.Join(strs, "")
+	for ret[0] == '0' && len(ret) > 1 {
+		ret = ret[1:]
+	}
+
+	return ret
+}
+
+func quickSort(src []string, first, last int) {
+	flag, left, right := first, first, last
+
+	if first >= last {
+		return
+	}
+
+	for first < last {
+		// left part
+		for first < last {
+			if src[flag]+src[last] >= src[last]+src[flag] {
+				last -= 1
+				continue
+			} else {
+				src[last], src[flag] = src[flag], src[last]
+				flag = last
+				break
+			}
+		}
+		// right part
+		for first < last {
+			if src[flag]+src[first] <= src[first]+src[flag] {
+				first += 1
+				continue
+			} else {
+				src[first], src[flag] = src[flag], src[first]
+				flag = first
+				break
+			}
+		}
+	}
+
+	quickSort(src, left, flag-1)
+	quickSort(src, flag+1, right)
+}
+
+```
+
+## 改进
+使用归并排序实现
+```golang
+```
+
+## 改进
+使用内置的sort来做（本质上就是快速排序、希尔排序、堆排序中选择合适的方式~~~）
 ```golang
 func largestNumber(nums []int) string {
 	strs := make([]string, len(nums))

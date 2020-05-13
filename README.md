@@ -141,8 +141,10 @@ Num | Question | Answer | Analysis | tags | Date
 0172 | Factorial Trailing Zeroes | [Answer](/algorithms/0172-factorial-trailing-zeroes/factorial-trailing-zeroes.go) | [Analysis](/algorithms/0172-factorial-trailing-zeroes/factorial-trailing-zeroes.md) | xxx | 2020/03/23
 0173 | Binary Search Tree Iterator | [Answer](/algorithms/0173-binary-search-tree-iterator/binary-search-tree-iterator.go) | [Analysis](/algorithms/0173-binary-search-tree-iterator/binary-search-tree-iterator.md) | xxx | 2020/05/09
 0179 | Largest Number | [Answer](/algorithms/0179-largest-number/largest-number.go) | [Analysis](/algorithms/0179-largest-number/largest-number.md) | xxx | 2020/05/10
-0187 | Largest Number | [Answer](/algorithms/0187-repeated-dna-sequences/repeated-dna-sequences.go) | [Analysis](/algorithms/0187-repeated-dna-sequences/repeated-dna-sequences.md) | xxx | 2020/05/10
+0187 | Repeated DNA Sequences | [Answer](/algorithms/0187-repeated-dna-sequences/repeated-dna-sequences.go) | [Analysis](/algorithms/0187-repeated-dna-sequences/repeated-dna-sequences.md) | xxx | 2020/05/12
 0189 | Rotate Array | [Answer](/algorithms/0189-rotate-array/rotate-array.go) | [Analysis](/algorithms/0189-rotate-array/rotate-array.md) | xxx | 2020/03/23
 0190 | Reverse Bits | [Answer](/algorithms/0190-reverse-bits/reverse-bits.go) | [Analysis](/algorithms/0190-reverse-bits/reverse-bits.md) | xxx | 2020/03/25
 0191 | Number of 1 Bits | [Answer](/algorithms/0191-number-of-1-bits/number-of-1-bits.go) | [Analysis](/algorithms/0191-number-of-1-bits/number-of-1-bits.md) | xxx | 2020/03/25
 0198 | House Robber | [Answer](/algorithms/0198-house-robber/house-robber.go) | [Analysis](/algorithms/0198-house-robber/house-robber.md) | xxx | 2020/03/28
+0199 | Binary Tree Right Side View | [Answer](/algorithms/0199-binary-tree-right-side-view/binary-tree-right-side-view.go) | [Analysis](/algorithms/0199-binary-tree-right-side-view/binary-tree-right-side-view.md) | xxx | 2020/05/13
+0200 | Number of Islands | [Answer](/algorithms/0200-number-of-islands/number-of-islands.go) | [Analysis](/algorithms/0200-number-of-islands/number-of-islands.md) | xxx | 2020/05/13

@@ -148,3 +148,4 @@ Num | Question | Answer | Analysis | tags | Date
 0198 | House Robber | [Answer](/algorithms/0198-house-robber/house-robber.go) | [Analysis](/algorithms/0198-house-robber/house-robber.md) | xxx | 2020/03/28
 0199 | Binary Tree Right Side View | [Answer](/algorithms/0199-binary-tree-right-side-view/binary-tree-right-side-view.go) | [Analysis](/algorithms/0199-binary-tree-right-side-view/binary-tree-right-side-view.md) | xxx | 2020/05/13
 0200 | Number of Islands | [Answer](/algorithms/0200-number-of-islands/number-of-islands.go) | [Analysis](/algorithms/0200-number-of-islands/number-of-islands.md) | xxx | 2020/05/13
+0202 | Happy Number | [Answer](/algorithms/0202-happy-number/happy-number.go) | [Analysis](/algorithms/0202-happy-number/happy-number.md) | xxx | 2020/05/14

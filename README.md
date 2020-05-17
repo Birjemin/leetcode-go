@@ -150,3 +150,4 @@ Num | Question | Answer | Analysis | tags | Date
 0200 | Number of Islands | [Answer](/algorithms/0200-number-of-islands/number-of-islands.go) | [Analysis](/algorithms/0200-number-of-islands/number-of-islands.md) | xxx | 2020/05/13
 0202 | Happy Number | [Answer](/algorithms/0202-happy-number/happy-number.go) | [Analysis](/algorithms/0202-happy-number/happy-number.md) | xxx | 2020/05/14
 0203 | Remove Linked List Elements | [Answer](/algorithms/0203-remove-linked-list-elements/remove-linked-list-elements.go) | [Analysis](/algorithms/0203-remove-linked-list-elements/remove-linked-list-elements.md) | xxx | 2020/05/14
+0204 | Count Primes | [Answer](/algorithms/0204-count-primes/count-primes.go) | [Analysis](/algorithms/0204-count-primes/count-primes.md) | xxx | 2020/05/14

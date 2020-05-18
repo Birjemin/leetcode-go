@@ -150,4 +150,7 @@ Num | Question | Answer | Analysis | tags | Date
 0200 | Number of Islands | [Answer](/algorithms/0200-number-of-islands/number-of-islands.go) | [Analysis](/algorithms/0200-number-of-islands/number-of-islands.md) | xxx | 2020/05/13
 0202 | Happy Number | [Answer](/algorithms/0202-happy-number/happy-number.go) | [Analysis](/algorithms/0202-happy-number/happy-number.md) | xxx | 2020/05/14
 0203 | Remove Linked List Elements | [Answer](/algorithms/0203-remove-linked-list-elements/remove-linked-list-elements.go) | [Analysis](/algorithms/0203-remove-linked-list-elements/remove-linked-list-elements.md) | xxx | 2020/05/14
-0204 | Count Primes | [Answer](/algorithms/0204-count-primes/count-primes.go) | [Analysis](/algorithms/0204-count-primes/count-primes.md) | xxx | 2020/05/14
+0204 | Count Primes | [Answer](/algorithms/0204-count-primes/count-primes.go) | [Analysis](/algorithms/0204-count-primes/count-primes.md) | xxx | 2020/05/17
+0205 | Isomorphic Strings | [Answer](/algorithms/0205-isomorphic-strings/isomorphic-strings.go) | [Analysis](/algorithms/0205-isomorphic-strings/isomorphic-strings.md) | xxx | 2020/05/18
+0206 | Reverse Linked List | [Answer](/algorithms/0206-reverse-linked-list/reverse-linked-list.go) | [Analysis](/algorithms/0206-reverse-linked-list/reverse-linked-list.md) | xxx | 2020/05/18
+

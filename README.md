@@ -154,4 +154,5 @@ Num | Question | Answer | Analysis | tags | Date
 0205 | Isomorphic Strings | [Answer](/algorithms/0205-isomorphic-strings/isomorphic-strings.go) | [Analysis](/algorithms/0205-isomorphic-strings/isomorphic-strings.md) | xxx | 2020/05/18
 0206 | Reverse Linked List | [Answer](/algorithms/0206-reverse-linked-list/reverse-linked-list.go) | [Analysis](/algorithms/0206-reverse-linked-list/reverse-linked-list.md) | xxx | 2020/05/18
 0217 | Contains Duplicate | [Answer](/algorithms/0217-contains-duplicate/contains-duplicate.go) | [Analysis](/algorithms/0217-contains-duplicate/contains-duplicate.md) | xxx | 2020/05/18
+0219 | Contains Duplicate II | [Answer](/algorithms/0219-contains-duplicate-ii/contains-duplicate-ii.go) | [Analysis](/algorithms/0219-contains-duplicate-ii/contains-duplicate-ii.md) | xxx | 2020/05/18
 

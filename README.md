@@ -153,4 +153,5 @@ Num | Question | Answer | Analysis | tags | Date
 0204 | Count Primes | [Answer](/algorithms/0204-count-primes/count-primes.go) | [Analysis](/algorithms/0204-count-primes/count-primes.md) | xxx | 2020/05/17
 0205 | Isomorphic Strings | [Answer](/algorithms/0205-isomorphic-strings/isomorphic-strings.go) | [Analysis](/algorithms/0205-isomorphic-strings/isomorphic-strings.md) | xxx | 2020/05/18
 0206 | Reverse Linked List | [Answer](/algorithms/0206-reverse-linked-list/reverse-linked-list.go) | [Analysis](/algorithms/0206-reverse-linked-list/reverse-linked-list.md) | xxx | 2020/05/18
+0217 | Contains Duplicate | [Answer](/algorithms/0217-contains-duplicate/contains-duplicate.go) | [Analysis](/algorithms/0217-contains-duplicate/contains-duplicate.md) | xxx | 2020/05/18
 

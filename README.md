@@ -155,4 +155,6 @@ Num | Question | Answer | Analysis | tags | Date
 0206 | Reverse Linked List | [Answer](/algorithms/0206-reverse-linked-list/reverse-linked-list.go) | [Analysis](/algorithms/0206-reverse-linked-list/reverse-linked-list.md) | xxx | 2020/05/18
 0217 | Contains Duplicate | [Answer](/algorithms/0217-contains-duplicate/contains-duplicate.go) | [Analysis](/algorithms/0217-contains-duplicate/contains-duplicate.md) | xxx | 2020/05/18
 0219 | Contains Duplicate II | [Answer](/algorithms/0219-contains-duplicate-ii/contains-duplicate-ii.go) | [Analysis](/algorithms/0219-contains-duplicate-ii/contains-duplicate-ii.md) | xxx | 2020/05/18
+0225 | Implement Stack using Queues | [Answer](/algorithms/0225-implement-stack-using-queues/implement-stack-using-queues.go) | [Analysis](/algorithms/0225-implement-stack-using-queues/implement-stack-using-queues.md) | xxx | 2020/05/19
+0226 | Invert Binary Tree | [Answer](/algorithms/0226-invert-binary-tree/invert-binary-tree.go) | [Analysis](/algorithms/0226-invert-binary-tree/invert-binary-tree.md) | xxx | 2020/05/19
 

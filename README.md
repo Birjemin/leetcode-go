@@ -157,4 +157,5 @@ Num | Question | Answer | Analysis | tags | Date
 0219 | Contains Duplicate II | [Answer](/algorithms/0219-contains-duplicate-ii/contains-duplicate-ii.go) | [Analysis](/algorithms/0219-contains-duplicate-ii/contains-duplicate-ii.md) | xxx | 2020/05/18
 0225 | Implement Stack using Queues | [Answer](/algorithms/0225-implement-stack-using-queues/implement-stack-using-queues.go) | [Analysis](/algorithms/0225-implement-stack-using-queues/implement-stack-using-queues.md) | xxx | 2020/05/19
 0226 | Invert Binary Tree | [Answer](/algorithms/0226-invert-binary-tree/invert-binary-tree.go) | [Analysis](/algorithms/0226-invert-binary-tree/invert-binary-tree.md) | xxx | 2020/05/19
+0231 | Power of Two | [Answer](/algorithms/0231-power-of-two/power-of-two.go) | [Analysis](/algorithms/0231-power-of-two/power-of-two.md) | xxx | 2020/05/19
 

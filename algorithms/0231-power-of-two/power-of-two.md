@@ -27,6 +27,7 @@ Output: false
 题意解答即可
 
 ## 最高分
+找规律的题目，2的次幂即2进制中第一位为1，其余位为0，和n-1取与即可
 ```golang
 func isPowerOfTwo(num int) bool {
 	return (num > 0 && ((num & (num - 1)) == 0))

@@ -163,4 +163,5 @@ Num | Question | Answer | Analysis | tags | Date
 0235 | Lowest Common Ancestor of a Binary Search Tree | [Answer](/algorithms/0235-lowest-common-ancestor-of-a-binary-search-tree/lowest-common-ancestor-of-a-binary-search-tree.go) | [Analysis](/algorithms/0235-lowest-common-ancestor-of-a-binary-search-tree/lowest-common-ancestor-of-a-binary-search-tree.md) | xxx | 2020/05/22
 0237 | Delete Node in a Linked List | [Answer](/algorithms/0237-delete-node-in-a-linked-list/delete-node-in-a-linked-list.go) | [Analysis](/algorithms/0237-delete-node-in-a-linked-list/delete-node-in-a-linked-list.md) | xxx | 2020/05/23
 0242 | Valid Anagram | [Answer](/algorithms/0242-valid-anagram/valid-anagram.go) | [Analysis](/algorithms/0242-valid-anagram/valid-anagram.md) | xxx | 2020/05/23
+0257 | Binary Tree Paths | [Answer](/algorithms/0257-binary-tree-paths/binary-tree-paths.go) | [Analysis](/algorithms/0257-binary-tree-paths/binary-tree-paths.md) | xxx | 2020/05/23
 

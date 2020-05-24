@@ -20,7 +20,7 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 ## 分析
 给定一个包含 `0, 1, 2, ..., n` 中 n 个数的序列，找出 0 .. n 中没有出现在序列中的那个数。
 
-补值就好了
+补值就好了, 136题和137题类似解法
 
 ## 最高分
 这就很刘辟了

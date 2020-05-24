@@ -47,14 +47,14 @@ func missingNumber(nums []int) int {
 ```
 
 ## 改进
+异或（相同为0，这个很有趣~~）
 ```golang
 func missingNumber(nums []int) int {
-	var sum int
-	for _, v := range nums {
-		sum += v
+	var ret int
+	for i, v := range nums {
+		ret ^= (i+1)^v
 	}
-	length := len(nums)
-	return length * (length + 1) / 2 - sum
+	return ret
 }
 ```
 

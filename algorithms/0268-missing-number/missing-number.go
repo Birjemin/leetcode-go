@@ -10,12 +10,11 @@ func missingNumber(nums []int) int {
 }
 
 func missingNumber1(nums []int) int {
-	var sum int
-	for _, v := range nums {
-		sum += v
+	var ret int
+	for i, v := range nums {
+		ret ^= (i+1)^v
 	}
-	length := len(nums)
-	return length * (length + 1) / 2 - sum
+	return ret
 }
 
 func missingNumber2(nums []int) int {

@@ -1,4 +1,4 @@
-package add_digits
+package missing_number
 
 import (
 	"github.com/stretchr/testify/assert"
@@ -6,7 +6,7 @@ import (
 )
 
 type param struct {
-	one int
+	one []int
 }
 
 type result struct {
@@ -24,7 +24,7 @@ func Test(t *testing.T) {
 	qs := []question{
 		{
 			p: param{
-				one: 38,
+				one: []int{3, 0, 1},
 			},
 			a: result{
 				one: 2,
@@ -32,25 +32,18 @@ func Test(t *testing.T) {
 		},
 		{
 			p: param{
-				one: 90,
+				one: []int{9, 6, 4, 2, 3, 5, 7, 0, 1},
 			},
 			a: result{
-				one: 9,
-			},
-		},
-		{
-			p: param{
-				one: 0,
-			},
-			a: result{
-				one: 0,
+				one: 8,
 			},
 		},
 	}
 
 	for _, q := range qs {
 		a, p := q.a, q.p
-		ast.Equal(a.one, addDigits(p.one), "输入:%v", p)
-		ast.Equal(a.one, addDigits1(p.one), "输入:%v", p)
+		ast.Equal(a.one, missingNumber(p.one), "输入:%v", p)
+		ast.Equal(a.one, missingNumber1(p.one), "输入:%v", p)
+		ast.Equal(a.one, missingNumber2(p.one), "输入:%v", p)
 	}
 }

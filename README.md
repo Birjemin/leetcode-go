@@ -165,4 +165,5 @@ Num | Question | Answer | Analysis | tags | Date
 0242 | Valid Anagram | [Answer](/algorithms/0242-valid-anagram/valid-anagram.go) | [Analysis](/algorithms/0242-valid-anagram/valid-anagram.md) | xxx | 2020/05/23
 0257 | Binary Tree Paths | [Answer](/algorithms/0257-binary-tree-paths/binary-tree-paths.go) | [Analysis](/algorithms/0257-binary-tree-paths/binary-tree-paths.md) | xxx | 2020/05/23
 0258 | Add Digits | [Answer](/algorithms/0258-add-digits/add-digits.go) | [Analysis](/algorithms/0258-add-digits/add-digits.md) | xxx | 2020/05/23
+0263 | Ugly Number | [Answer](/algorithms/0263-ugly-number/ugly-number.go) | [Analysis](/algorithms/0263-ugly-number/ugly-number.md) | xxx | 2020/05/24
 

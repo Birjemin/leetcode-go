@@ -1,6 +1,5 @@
 package first_bad_version
 
-
 import (
 	"github.com/stretchr/testify/assert"
 	"testing"

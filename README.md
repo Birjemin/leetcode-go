@@ -168,4 +168,5 @@ Num | Question | Answer | Analysis | tags | Date
 0263 | Ugly Number | [Answer](/algorithms/0263-ugly-number/ugly-number.go) | [Analysis](/algorithms/0263-ugly-number/ugly-number.md) | xxx | 2020/05/24
 0268 | Missing Number | [Answer](/algorithms/0268-missing-number/missing-number.go) | [Analysis](/algorithms/0268-missing-number/missing-number.md) | xxx | 2020/05/24
 0278 | First Bad Version | [Answer](/algorithms/0278-first-bad-version/first-bad-version.go) | [Analysis](/algorithms/0278-first-bad-version/first-bad-version.md) | xxx | 2020/05/25
+0283 | Move Zeroes | [Answer](/algorithms/0283-move-zeroes/move-zeroes.go) | [Analysis](/algorithms/0283-move-zeroes/move-zeroes.md) | xxx | 2020/05/25
 

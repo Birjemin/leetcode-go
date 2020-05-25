@@ -167,4 +167,5 @@ Num | Question | Answer | Analysis | tags | Date
 0258 | Add Digits | [Answer](/algorithms/0258-add-digits/add-digits.go) | [Analysis](/algorithms/0258-add-digits/add-digits.md) | xxx | 2020/05/23
 0263 | Ugly Number | [Answer](/algorithms/0263-ugly-number/ugly-number.go) | [Analysis](/algorithms/0263-ugly-number/ugly-number.md) | xxx | 2020/05/24
 0268 | Missing Number | [Answer](/algorithms/0268-missing-number/missing-number.go) | [Analysis](/algorithms/0268-missing-number/missing-number.md) | xxx | 2020/05/24
+0278 | First Bad Version | [Answer](/algorithms/0278-first-bad-version/first-bad-version.go) | [Analysis](/algorithms/0278-first-bad-version/first-bad-version.md) | xxx | 2020/05/25
 

@@ -171,4 +171,5 @@ Num | Question | Answer | Analysis | tags | Date
 0283 | Move Zeroes | [Answer](/algorithms/0283-move-zeroes/move-zeroes.go) | [Analysis](/algorithms/0283-move-zeroes/move-zeroes.md) | xxx | 2020/05/25
 0290 | Move Zeroes | [Answer](/algorithms/0290-word-pattern/word-pattern.go) | [Analysis](/algorithms/0290-word-pattern/word-pattern.md) | xxx | 2020/05/26
 0292 | Nim Game | [Answer](/algorithms/0292-nim-game/nim-game.go) | [Analysis](/algorithms/0292-nim-game/nim-game.md) | xxx | 2020/05/26
+0299 | Bulls and Cows | [Answer](/algorithms/0299-bulls-and-cows/bulls-and-cows.go) | [Analysis](/algorithms/0299-bulls-and-cows/bulls-and-cows.md) | xxx | 2020/05/26
 

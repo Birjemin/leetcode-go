@@ -59,6 +59,5 @@ func Test(t *testing.T) {
 	for _, q := range qs {
 		a, p := q.a, q.p
 		ast.Equal(a.one, canWinNim(p.one), "输入:%v", p)
-		// ast.Equal(a.one, canWinNim1(p.one), "输入:%v", p)
 	}
 }

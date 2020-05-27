@@ -19,8 +19,11 @@ Output: 0
 最简单的方式遍历、效率低，说明是有规律的题目
 
 ## 最高分
+刘辟
 ```golang
-
+func rangeBitwiseAnd(m int, n int) int {
+    return n &^ (1 << bits.Len(uint(n^m)) - 1)
+}
 ```
 
 ## 实现

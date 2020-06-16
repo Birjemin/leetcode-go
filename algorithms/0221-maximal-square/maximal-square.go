@@ -62,7 +62,7 @@ func maximalSquare1(matrix [][]byte) int {
 
 	dp, ret := make([][]int, height), 0
 
-	for i := range dp {
+	for i := 0; i < height; i++ {
 		dp[i] = make([]int, width)
 		if matrix[i][0] == '1' {
 			dp[i][0] = 1

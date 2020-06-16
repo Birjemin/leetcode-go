@@ -58,7 +58,7 @@ func isSquare(matrix [][]byte, x, y, border int) bool {
 ```
 
 ## 改进
-根据官方题解，给出解法
+根据官方题解，给出解法(dp算法~~~)
 ```
          [ 0,  matrix[i][j]=0
 dp[i][j]=|
@@ -76,9 +76,9 @@ func maximalSquare(matrix [][]byte) int {
 		return 0
 	}
 
-	dp := make([][]int, height)
-	var ret int
-	for i := range dp {
+	dp, ret := make([][]int, height), 0
+
+	for i := 0; i< height; i++ {
 		dp[i] = make([]int, width)
 		if matrix[i][0] == '1' {
 			dp[i][0] = 1
